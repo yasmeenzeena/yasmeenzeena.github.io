@@ -11,7 +11,7 @@ Second Year
         		<li><a href="/blog">ETC</a></li>
     		</ul>
 <details>
-	
+	<br>
 <details>
 <summary>BIOC2005: Metabolism</summary>
 <br>
@@ -22,7 +22,7 @@ Second Year
         		<li><a href="/">na</a></li>
     		</ul>
 <details>	
-
+<br>
 <details>
 <summary>PHAR2001: Drugs & the Mind</summary>
 <br>
@@ -33,7 +33,7 @@ Second Year
         		<li><a href="/">na</a></li>
     		</ul>
 <details>
-	
+	<br>
 	
 <details>
 <summary>CHEM2601: Chemistry of Biologically Important Molecules </summary>
@@ -45,3 +45,4 @@ Second Year
         		<li><a href="/">na</a></li>
     		</ul>
 <details>
+<br>
