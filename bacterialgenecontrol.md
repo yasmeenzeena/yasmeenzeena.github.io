@@ -116,7 +116,7 @@ A terminator sequence on the gene must be recognised by the RNA polymerase. This
 region is characterised with inverted repeats which once transcribed create a hairpin loop.
 After the hairpin loop there is a U rich section at the end which is the proper termination
 region. Hairpins are usually made of CGs are these are harder to melt.
-![hairpin](http://www.mun.ca/biology/desmid/brian/BIOL2060/BIOL2060-21/21_10.jpg)
+![hairpin](https://www.stat.berkeley.edu/~terry/Classes/s260.1998/Week12/week12/img5.gif)
 
 The hairpin loop is a very strong structure
 and the mRNA is left with a UUU section
@@ -127,3 +127,16 @@ relying on a very weak interaction to hold
 the complex together. The structure
 collapses as it is no longer energetically
 stable!
+
+## Termination of transcription: Rho dependent
+
+Rho dependent termination is less common in bacteria. Rho is a hexamer protein (i.e. 6
+identical subunits.) Only binds once the mRNA is translated (remember these occur
+together in bacteria!) and the ribosome has left, has an ATPase activity but mechanism is
+unknown. Terminators are C-rich and ~40 nucleotides long. The ribosome gets to a translational STOP codon and dissociates, which is when the Rho protein binds to the end of the molecule.
+
+Not all of the downstream after the +1 site is translated from the mRNA strand: the leader
+and the trailer are not. Therefore, the hairpin structure does not interfere with translation
+as it is in the trailer section.
+
+![gene](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Bacterial_Protein_synthesis.png/1000px-Bacterial_Protein_synthesis.png =250x)
