@@ -28,7 +28,7 @@ When the mRNA is being translated the ribosome will bind to AUG, translate til U
 unbind. This will occur for each polypeptide in the RNA sequence.
 
 Genes are only transcribed when needed!
->inducible operons = must be turned on
+>inducible operons = must be turned on <br/>
 >repressible operons = must be turned off
 
 # Lac Operon
@@ -227,3 +227,91 @@ one
 hairpin loop structure to form
 4. release of RNA polymerase
 5. structural genes cannot be transcribed
+
+## Two component regulatory systems - phosphate concentration and gene regulation
+
+Phosphate operon: has a sensor protein (PhoR) and a regulatory protein (PhoB.)
+
+**PhoR** has three domains: periplasmic (binds to the phosphate), transmembrane &
+cytoplasmic. When the [phosphate] decreases, the periplasmic domain releases its
+phosphate -> conformational change, the histidine on the cytoplasmid domain is
+exposed. The histidine is phosphorylated by ATP and the protein is now in its active
+sensor form.
+
+Once PhoR has been activated it transfers its phosphate onto the aspartate of **PhoB**, the
+regulator protein. Active PhoB can now bind to DNA, increasing the affinity of the RNA
+polymerase for various promoters: genes phoA (alkaline phosphatase) phoS (phosphate
+binding protein) phoE (porin) & gpB (phosphate transporter.) PhoB binds near the
+promoter of each gene involved (~30 overall.) PhoB = transcription factor!
+
+## Quorum sensing and the lux operon
+
+Vibrio fischeri are a bacterium that are able to bioluminesce when in a quorum (i.e. large
+numbers.) They often colonise in squid organs and other sea creatures. Each bacterium
+makes one molecule of **VAI** (Vibrio fischeri autoinducer) so a quorum will contain many of
+these molecules! Molecules are secreted through the cell membrane into the extracellular
+environment. VAI eventually diffuses back into cells once a threshold concentration (~10
+μg/ml) has been reached. VAI is a transcription factor that increases the RNA polymerase
+affinity for the lux promoter. Once RNA polymerase has bound the lux genes are
+transcribed. lux I = VAI synthetase, makes more VAI. lux R = produces Lux R protein
+which binds to VAI. The luxR-VAI complex can bind to the operator and increase the
+RNA polymerase affinity again.
+
+The first few VAI molecules help the RNA polymerase bind and start the lux operon, after
+which the main regulatory protein is the luxR-VAI complex = "autoinduction." luxR has its
+own promoter and is not part of the lux operon.
+
+Operon:
++ luxI = VAI synthetase
++ luxA&B = code for subunits of enzyme luciferase (this is the one that makes light!)
++ luxC&D&E = code for luciferin (substrate for luciferase)
++ Luciferin is oxidised by luciferase which causes flashes of blue and green light.
+
+![lux](http://2010.igem.org/wiki/images/2/25/Luxoperondiagram.jpg)
+
+## The ribosomal and transfer RNA operons of E. coli
+Genes encoding tRNA and rRNA are transcribed by RNA polymerase (note that
+in human cells we have a specific subset of RNA polymerase for this task.)
+rRNA + tRNA = 98% of cell’s total RNA BUT they are encoded by only 1% of
+genome! Whilst mRNA is very unstable and only exists for a few minutes at a
+time in the cell tRNA and rRNA are stable throughout generations of cells ->
+carried over (very energetically costly to make ribosomes so must stay intact
+for a long time.) tRNA and rRNAs are made from short lived precursor
+molecules.
+
+tRNA: mature tRNAs (clover leaf structure) have their 5' and 3' flanking regions
+removed before they are involved in translation. In bacteria all 3 genes
+associated with tRNA production are clustered together into an operon. The
+primary transcript of the operon undergoes secondary folding to form a long
+primary tRNA molecule, which is cut in three places by ribonucleases: RNase P
+specifically. RNaseP digests the phosphodiester bonds, gives three tRNA
+molecules which still need their flanking regions removed.
+
+The 5' phosphate flanking region is removed by RNaseP again, an
+endonuclease (i.e. cleaves internally, in the middle of the strand.) Precursor
+tRNA strand is thus removed. RNaseD removes the 3' OH flanking region and is
+an exonuclease: cleaves phopshodiester bonds one at a time until it reaches
+the CCA codon (this is the stop codon, all tRNA molecules have this at the
+end.)
+
+3 gene operon ---> transcribed into the primary transcript ---> cleaved at three
+points by RNaseP ---> must remove flanking regions via RNaseP [5' region]
+and RNaseD [3' region, leaves CCA]
+
+rRNA: in bacteria, an "rrn" is a ribosomal RNA operon -> E coli has seven! tRNA
+genes may also be included in these rrns. Each operon gives an output of a
+"30S RNA primary transcript", which is cut enzymatically to give:
++ 2 tRNA molecules (use RNase D and RNase P to become mature)
++ 16S RNA [small subunit of ribosome]
++ 23S RNA [large subunit of ribosome]
++ 5S RNA [large subunit of ribosome]
+
+All RNA subunits are made in equimolar amounts as they are all transcribed
+onto a polycistronic mRNA = rrn efficient way of packaging RNA genes to
+ensure that they are all in the right location (together) in the right
+concentration (1:1 ratio.) [S= svedborg units (if centrifuged all have specific
+sedimentation coefficient.)]
+
+This 30S transcript of rRNA makes a huge stem loop structure with
+complimentary on both sides. This structure is cleaved at points by RNase III to
+make a functional, mature rRNA.
