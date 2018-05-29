@@ -78,6 +78,8 @@ sites are the same! -35 has a TTGACAT sequence, and ~17 bp towards the +1 start 
 the -10 region has a sequence of TATAAT. -35 and -10 regions are close by so that the
 DNA doesn't twist around the protein by stays linearised.
 ![bacterialpromotor](https://cdn.oxfordgenetics.com/Content/Images/bacterial-promoter.png)
+
+
 A specific experiment was designed to find exactly where the binding site was:
 1. Find the assumed binding site and make it radioactive, split into two test tubes
 2. Add RNA poly to the second test tube
@@ -97,6 +99,31 @@ different sequences to the conserved -> deviations weaken the sigma binding. Thi
 actually aid regulation of a promoter e.g. lac operon, weakness allows a biological switch
 like lactose to turn it on/off.
 
-**B subunit role** = nucleotide binding and catalytic activity</br>
-**B' role** = DNA binding</br>
-**a role** = assembly of the core enzyme (holoenzyme) and aids promoter recognition</br>
+**B subunit role** = nucleotide binding and catalytic activity<br/>
+**B' role** = DNA binding<br/>
+**a role** = assembly of the core enzyme (holoenzyme) and aids promoter recognition<br/>
+
+RNA polymerase begins situated on the DNA in the *closed complex*, but once the RNA chain is 8 nucleotides long the sigma factor dissociates and the complex is in the *open* form. The DNA is unwound, a transcription bubble forms, the 3'->5' DNA
+strand acts as the template strand for RNA synthesis.
+
+![initiation](http://slideplayer.com/slide/6187384/18/images/16/Transcription+initiation+by+prokaryotic+RNA+polymerase.jpg)
+
+>Detailed mechanism of RNA poly binding: http://proteopedia.org/wiki/index.php/Beta-Prime_Subunit_of_Bacterial_RNA_Polymerase
+
+## Termination of transcription: Rho independent [intrinsic termination]
+
+A terminator sequence on the gene must be recognised by the RNA polymerase. This
+region is characterised with inverted repeats which once transcribed create a hairpin loop.
+After the hairpin loop there is a U rich section at the end which is the proper termination
+region. Hairpins are usually made of CGs are these are harder to melt.
+![hairpin](http://www.mun.ca/biology/desmid/brian/BIOL2060/BIOL2060-21/21_10.jpg)
+
+The hairpin loop is a very strong structure
+and the mRNA is left with a UUU section
+directly after, which is hybridised to the A
+section of DNA. A=U is much weaker than
+CG and so the RNA:DNA association is
+relying on a very weak interaction to hold
+the complex together. The structure
+collapses as it is no longer energetically
+stable!
