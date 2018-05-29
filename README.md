@@ -1,6 +1,12 @@
-# website to host all my notes from biochemistry at UCL and beyond 
+# Notes from UCL biochemistry:
 
-	Notes 
+	<details>
+<summary>Second Year</summary>
+<br>
+BIOC2001 .
+<details>
+	
+	
 <ul>
         		<li><a href="https://yasmeenzeena.github.io/bacterialgenecontrol">Bacterial Gene Control</a></li>
 	        	<li><a href="/about">Protein Trafficking</a></li>
