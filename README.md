@@ -8,7 +8,7 @@ Second Year
         		<li><a href="https://yasmeenzeena.github.io/bacterialgenecontrol">L7: RNA polymerase</a></li>
 	                <li><a href="https://yasmeenzeena.github.io/bacterialpromotors">L8: Bacterial gene control</a></li>
 	        	<li><a href="/about">Protein Trafficking</a></li>
-        		<li><a href="/cv">Eukayrotic Gene Control</a></li>
+        		<li><a href="https://yasmeenzeena.github.io/egenecontrol">L16-20: Eukayrotic Gene Control</a></li>
         		<li><a href="/blog">ETC</a></li>
     		</ul>
 </details>
