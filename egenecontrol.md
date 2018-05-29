@@ -180,3 +180,34 @@ e.g. histone production, stabilised by the stem loop structure rather than poly 
 e.g. mRNA of globin gene kept stable in enucleated RBCs. Globin mRNA half-lives vary from 10 to 24 hours. thalassemia = disease caused by mutation of DNA than inhibits globin mRNA transcription/processing e.g. blocks polyadenylation.
 
 e.g. iron-responsive element stabilised by iron regulatory proteins binding the transferrin receptor mRNA or the DMT1 mRNA.
+
+*Translational control* —> in humans occurs after fertilisation. All egg cells have mRNA for the necessary proteins in them, but they are only translated in the fertilised egg since it is a large energy cost.
+
+*miRNA*: regulatory RNA:
+can induce degradation of an mRNA by binding (cleavage of the dsRNA)
+inhibit translation by binding to block machinery
+bind to DNA to turn euchromatin -> heterochromatin
+
+### Transcriptional control: long term control
+
+Differentiation intention kept over generations due to chromatin structure: cartilage cells cultured in different growth medium, lose differentiated state to become stem cells —> gene expression changes, collagen expression lost —> will return to being cartilage cells in normal growth medium [memory of differentiation held in cells somehow.]
+
+cells know what they are going to become —> Drosophila, larval stage then pupa then adult. In larval stage tissues have differentiated, and have undifferentiated “imaginal” discs along the length: these cells form the adult body, larval differentiated tissue falls away. If you move imaginal discs around it retains its differentiation intention despite a new environment, so differentiation is an innate cell property and not environmentally based: “commitment.” Commitment maintained over generations and will differentiate on signal.
+
+Lineage differences stem from chromatin structures!
+
+Gene unwinds before transcription back into the beads on a string structure
+
+^^Proof: isolate chromatin along from cells -> digest with DNase1, isolate the DNA, cut with restriction enzymes to see changes, gene bands on southern blot disappear over time due to digestion. Digestion patterns are tissue specific! *Euchromatin is digested before heterochromatin due to tighter packing.* So active genes are held in a looser form. e.g. ofalbumin gene in liver is digested before vitilogenin.
+
+
+**Methylation of genes** to silence the C residue in eukaryotes (A residue in prokaryotes) = gene silencing. CG-GC patterns often have the same methylation pattern. Methyl group put on the same carbon as thymine. Lack of methylation = active genes.
++ Use 5-azacytidine, C analog, which cannot be methylated so cannot be silenced —> use 10t cells (undifferentiated), they become muscle cells!
++ After DNA replication initially Cs are not methylated, but maintainance-methylase enzymes will copy the methylation from the parent strand of DNA onto the daughter strand so there are no hemi-methylated sites on new DNA
++ Block these enzymes for a generation so that the next generation of cells is half non methylated (made from non methylated strand) and half methylated (made from hemimethylated site.) = one non methylated cell, one methylated
+1. ^^ Model of why gene expression is not lost, cells can de differentiate then proliferate (e.g. lens cells: If you remove lens cells in an amphibian the iris cells differentiate into lens cells = transdifferentiation; go back into stem cells then divide into lens cells.)
+2. Makes one stem cell and one differentiated cell
+
+**acetylate the histones** -> Add CH3COO- at lysine and arginine residues. Activates transcription, either by recruiting TF or by blocking the inhibition of transcription [i.e. blocks molecule that keeps heterochromatin structure in place.] (probably a bit of both.) Use sodium buterate to inhibit deacetylation = increase of histone acetylation.
+
+**histone methylation** -> can either increase or decrease transcription; again arginine and lysine most often modified. Negative effects of histone methylation to block transcription: binding of siRNA to DNA recruits HP1 protein to methylate histones at inhibitory sites and recruits de novo methylase, Dnmt. H3 is the most oft-modified histone, and most of its modifications occur in its N terminus -> Lysine is modified by covalent attachment of one acetyl or one, two or three methyl groups to the nitrogen in its R group.
