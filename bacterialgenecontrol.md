@@ -56,3 +56,24 @@ nucleotides together without a primer this is key!) 2. catalyse the phosphodiest
 formation between the nucleotides 3. recognise the end of the gene.
 Binding: sigma subunit recognises and binds to the promoter sequence at the beginning
 of the gene (upsteam, - value.)
+
+Binding: sigma subunit recognises and binds to the promoter sequence at the beginning
+of the gene (upsteam, - value.)<br/>
++1 = first base to be transcribed upstream = to the LHS,
+negative numbers (promoter and regulation area)<br/>
+downstream = to the RHS, rest of the gene<br/>
+
+![sigma70](https://classconnection.s3.amazonaws.com/838/flashcards/2220838/jpg/asdf-14392EB672D4751DEEE.jpg)
+
+sigma 70 means that the sigma unit Mr = 70000
+
+The sigma 70 subunit recognises the -35 and the -10 upstream regions of DNA: these
+make up the promoter. -35 is the recognition site, with a complimentary DNA sequence
+to sigma so it can hybridise. -10 region helps the RNA polymerase orient itself and
+stabilises the a2, b and b' subunits around the DNA strand. -10 region is AT rich so easily
+unwinds. Thus, once -35 binding occurs other subunits may also bind.
+
+Most E. coli promoters have a consensus sequence whereby the sigma factor binding
+sites are the same! -35 has a TTGACAT sequence, and ~17 bp towards the +1 start site
+the -10 region has a sequence of TATAAT. -35 and -10 regions are close by so that the
+DNA doesn't twist around the protein by stays linearised.
