@@ -1,4 +1,4 @@
-#Protein Trafficking
+#L12&13: Protein Trafficking
 
 *Subcellular compartmentalisation and the problem of getting proteins to the right place i.e. protein trafficking. Proteins encoded by nuclear genes begin synthesis in the cytosol. Proteins destined to remain in the cytosol have no sorting signals (the default pathway): targeting to other destinations requires sorting signals.*
 
@@ -202,3 +202,156 @@ Co-translational summary:
   Same Sec61 but no SRP/SRP receptor bringing the ribosome/protein complex to the Sex61. There is a direct interaction between the Sec61 and the signal sequence in the protein instead -> the unidirectional aspect of translocation is provided by Sec63 complex and BiP, a molecular chaperon, member of the Hsc70, tetrameric.
 
   BiP = in the ER lumen, Sec63 = embedded in the membrane. BiP has a peptide-binding domain and an ATPase domain. BiP's role is to stop the protein from backsliding through Sec61 into the cytosol. 
+
+  1.	Once the N terminal segment of the protein enters the ER lumen, signal peptidase cleaves the signal sequence just as in cotranslational translocation
+  	2.	BiP.ATP + Sec63 interact = hydrolysis of bound ATP, conformational change in BiP results in BiP binding to the polypeptide chain. 
+  	3.	As more of the polypeptide enters the ER lumen it successively binds to multiple BiPs, stopping backsliding back into the cytosol. Polypeptide continues into the ER lumen studded with ADP molecules from the BiP binding. 
+  	4.	BiP molecules spontaneously exchange their bound ADP for ATP, leading to release of the polypeptide, which can then fold into its native conformation. (kinda similar to mitochondrial import!)
+
+    *ER import summary:*
+
++ Via Sec61 complex translocon
++ Requires signal sequences: one or more charged aa followed by hydrophobic region 
++ Can be co- or post-translational
++ Proteins must be unfolded via Hsp70 chaperon proteins to pass through Sec61 
++ Co-translational uses SRP and SRP receptor on the ER membrane, GTP hydrolysis pushes the polypeptide through the Sec61 translocon
++ Post-translation uses Sec63 and BiP to provide unidirectional transport (ATPase)
++ Co-translational import requires GTP, post-translational import requires ATP
+
+### N-linked glycosylation in the ER
+
+Addition of sugars via enzymes: oligosaccharide transferase, membrane protein of the ER membrane that binds to the ribosome, recognises any asparagine residues coming through -> asparagine something serine/thrionine. Adds a sugar onto the asp: some N-acetylglucosamine, then some mannose, then glucose.  
+
+Glycosylation seems to assist folding & stability and can play a role in cell cell adhesion at the cell surface. 
+^N linked / core glycosylation -> first type to occur! happens at asparagine. 
+
+### Protein folding in the ER and the dislocation or retrotranslocation of misfolded proteins (ERAD)
+
+Chaperones help proteins to fold correctly and also mark incorrectly folded proteins for degradation
+
+![erad](https://www.researchgate.net/publication/307442236/figure/fig1/AS:403388127825920@1473186632494/ER-associated-degradation-ERAD-pathway-ERAD-is-an-ER-quality-control-pathway-that.png)
+
+The ER is also the site of disulphide bond formation(S-S). Disulphide bonds (between cysteine residues) help stabilise the tertiary and quarternary structureof proteins. Con only form in the oxiding environment of the ER (cytosol is reducing!)
+
+ERAD: ER Associated Degradation -> protein is misfolded or marked as wrong, must be removed, sent out through a translocon (unknown which) into the cytosol, sugar is removed, ubiquitin is added (poly ubiquitination), marked for degradation! Process of removal is called retrotranslocation.
+
+### Insertion of membrane proteins into the ER membrane
+
+Signal sequence moves through Sec61 and is cleaved by signal peptidase as per usual. A hydrophobic region is now stuck in Sec61 so moves laterally into the membrane, rest of the protein is attached! = membrane protein anchored in place.
+
+Can also make a transmembrane protein like this e.g. rhodopsin -> hydrophobicity plot shows that the hydrophobic regions will transfer latterly into the membrane: each hydrophobic region will form a transmembrane region. Force of translation pushes the hydrophilic bits into the ER lumen. 7 membrane spanning domains.
+
+### Protein sorting and trafficking beyond the ER.
+*The ER is the starting place for proteins destined for many other locations. We will discuss these routes through the cell: secretion and the secretory pathway; endocytosis and the endocytic pathway; and retrograde or recycling pathways*
+
+ER resident proteins remain there e.g. BiP, chaperon proteins etc. 
+
+**Secretory pathways**: from ER to cell surface or lysosome
+**Endocytic pathways**: from cell surface into the cell! 
+Recycling pathways: backwards transport pathway to balance, takes things away from the cell surface to keep it from growing too large. 
+
+Signals on the proteins: 3D patches, sequences, or even protein modifications can direct traffic e.g. glycosylation,ubiquitination, lipid modifications
+ 
+All processes from the ER involves something other than translocation! Must use vesicle based trafficking now. 
+
+• Vesicular transport, and how proteins may be sorted into different vesicles. This section includes vesicle coats and the role they play in forming the vesicle and selecting the proteins to be included in it (“cargo” proteins). See Lodish 634-636 or Alberts pg. 697-699.
+
+Vesicles can form from an organelle: have coats, e.g. clathrin, COPI and COPII. Protein coats around the vesicles.
+
+COPI&II can sort which proteins go into the vesicles. Clathrin has a coat component and adaptors, accessory proteins that do the selection of proteins. each coat needs a GTPase for binding assembly.
+
+### Targeting signals direct proteins to the correct location
+
+As seen previously, two methods to move proteins from the ER to another organelle: vesicular transport, or direct fusion to create a hybrid organelle (e.g. late endosome and lysosome fusion.) Vesicular transport works using coat proteins, which are able to select the right proteins to be added to the vesicle. -> The first step in vesicular transport is the formation of a vesicle by budding from the membrane.
+
+**Clathrin** = coat protein, moves molecules from the plasma membrane i.e. endocytosis, and moves from the Golgi to the endosome. [ARF is a recruiting protein, Hsp70 needed to uncoat.]
+
+**COPI** = bud from cis Golgi to ER, recycling pathway [ARF is the GTPase needed to uncoat]
+
+**COPII** = bud from the ER to the Golgi, secretory pathway [Sar1 is the GTPase needed to uncoat.]
+
+The assembly of vesicle coats also requires GTP-binding proteins, which appear to regulate the binding of coat proteins to the membrane. The budding of COPI-coated vesicles from the Golgi complex requires a GTP-binding protein called ARF (ADP-ribosylation factor), while the budding of COPII-coated vesicles from the ER requires a distinct GTP-binding protein called Sar1.
+
+The clathrin coat is made up of clathrin and accessory proteins, which buds on the cytosolic facing membrane to allow the molecules to enter the cell/endosome. The process is described below:
+
++ Coat assembly and cargo selection: The adaptor proteins bind to the cargo receptors on the membrane and recruit clathrin to the membrane. They decide which proteins will be added to the ligands. 
++ Bud formation: Adaptor proteins are able to attract the necessary proteins. These proteins come together and introduce curvature into the membrane due to their large number, resulting in a bud forming. Receptor and cargo taken up into the bud.
++ Vesicle formation: neck of the bud is severed by other membrane bending and fission proteins, a vesicle is formed. 
++ Uncoating: the coat is rapidly lost once the vesicle forms (via ATPase of the Hsp70 family.) Clathrin and adaptor removed. Proteins of interest are in the transport vesicle -> binds to the endosome, first target of the endocytosis pathway. 
+
+![coat](https://i.ytimg.com/vi/tyA3Of8euBk/maxresdefault.jpg)
+
+### Specific membrane fusion: SNAREs, and different types of membrane fusion
+
+After formation of a vesicle is completed, the coat is shed, exposing the vesicle's v-SNARE proteins (membrane proteins.) v-SNARES have associated tethering proteins such as Rab-GTP. Rab-GTP is able to bind to a Rab effector, a tethering protein, which brings the vesicle closer to the target membrane [tethering]. v-SNARES and t-SNARES on the target membrane can bind together. t-SNARES contribute 3 alpha helicases from either 2 or 3 t-SNARES to bind to the single v-SNARE from the vesicle. A four helical bundle is made now [docking.] This can also be called a a "trans SNARE pair". It allows the two membranes to fuse together, mixing their lipids and transferring the soluble proteins in the vesicle to the organelle lumen. 
+
+*Rab-GTP + Rab effector = tethering
+v-SNARE + t-SNARE = docking, vesicle and target membrane fusion* 
+
+The SNARE complex (trans-SNAR-pair) must be removed before membrane fusion by an ATPase complex called NSF, a six subunit protein with an associated alpha-SNAP molecule. This complex is a universal way to remove SNAREs, as contrasted to the many different types of v and t SNARES possible. ATP is used to remove the SNARE complex. 
+
+homotypic fusion = one compartment with itself e.g. early endosome + early endosome
+heterotypic fusion = different membranes fusing together
+^ same mechanism for both
+
+### The sorting of both integral-membrane and soluble ER resident proteins
+
+All proteins start synthesis on the ER, co translocated into the ER. 
+
+**Soluble ER resident protein (e.g. BiP): retrieval pathway**
+
+COPII vesicles will take some of the fluid from the lumen of the ER each time it buds, thus some protein will escape and end up in the cis-Golgi. ER resident proteins contain the KDEL targeting signal on their C terminus, which is recognised by the KDEL receptor in the cis-Golgi membrane. cis-Golgi has a lower pH to the ER, allowing binding of the protein to the KDEL receptor. COPI takes the protein back to the ER (recycling pathway.) Once back in the ER the KDEL protein dissociates from the receptor due to the neutral pH environment. 
+
+COPII + protein ---> cisGolgi 
+protein + KDEL receptor bind (low pH)
+COPI + protein + KDEL receptor ----> ER
+protein + KDEL receptor unbind (neutral pH)
+
+![kdel](http://slideplayer.com/slide/10613641/36/images/8/Retrieval+of+ER-Resident+Proteins.jpg)
+
+**Transmembrane ER resident proteins**
+
+Membrane protein must stay in the ER. Taken by COPII budding by accident (part of the membrane is removed each time a vesicle is made), goes to the cis-Golgi. Membrane protein has a signal: two lysines & two of any amino acid at the extreme C terminus (KKXX.) KKXX interacts with the coat proteins of COPI, concentrated into the COPI vesicles, returned to the ER via a retrieval pathway. 
+
+COPII + protein --> cisGolgi
+KKXX signal interacts with COPI coat proteins
+COPI + protein --> ER 
+
+### Secretion, including Golgi protein modifications (glycosylation, sulfation).
+
+ER -> via COPII -> cisGolgi --> medial --> transGolgi --> (transGolgi network) --> constitutive secretion to the plasma membrane 
+soluble proteins will be released out of the cell (exocytosis) whilst membrane proteins will be added to the plasma membrane 
+
+all cells do constitutive secretion, some specialised ones do regulated secretion (membrane + soluble proteins held at the plasma membrane in regulatory vesicles, only fuse once a signal has been sent e.g. transmitter release, hormone secretion (e.g. insulin waits until blood glucose level lowered), digestive enzymes.
+
+Golgi modifications:
+O-linked glycosylation occurs in the Golgi (unlike the N linked glycosylation of the ER) -> happens on OH groups in serine/threonine where sugars are added to the hydroxyl groups. 
+
+Two models for proteins getting through the Golgi:
+
+	1.	Vesicular transport method: from each compartment a vesicle is budded off and fuses with the next compartment along 
+	2.	Cisternal maturation model: favoured model, idea is that a compartment matures into the next one, so no vesicle action. cisGolgi becomes medial, medial matures intro trans etc. After the trans-Golgi complex vesicles bud off to go to the next organelle. Maturation works via "back transport" -> enzymes go backwards over time e.g. enzymes of the transGolgi travel back to the medial, which results in the medial becoming the transGolgi. Each compartment 'moves up one' going right to left. 
+
+![cisternalmaturation](https://www.researchgate.net/publication/11229295/figure/fig1/AS:271550448402476@1441754081224/The-cisternal-maturation-model-for-Golgi-functionCoatomer-protein-complex-COPII.png)
+
+### The sorting of soluble lysosomal proteins: the mannose-6-phosphate system
+
+Function is to degrade proteins and lipids, concentrated enzymes! fuses with the late endosome to degrade these proteins. most acidic organelle. organelles across the protein maturation pathway slowly get more acidic!
+
+Hydrolase enzymes must be brought to the lysosome -> sugar signal, mannose 6 phosphate added to the protein in the Golgi (phosphorylated in the Golgi) -> signal bound by the mannose 6 phosphate receptor in the late Golgi ---> coated vesicle transports protein to the late endosome -> acidic organelle due to H+ pumped in, dissociation of receptor and enzyme ---> receptor is recycled by COPI back to the Golgi --> enzyme added into the lysosome once the endosome and lysosome fuse together in direct fusion 
+
+![m6p](http://www1.lf1.cuni.cz/udmp/web2/cell/ch13f37.gif)
+
+### The LDL receptor
+
+Membrane protein, synthesised on the ER, taken to the plasma membrane by **constitutive secretion**.
+
+LDL receptor is on the plasma membrane and binds LDL, using the FDNPVY signal (endocytosis signal.) The adaptor proteins bind to the receptor and protein, and clathrin is recruited to form a vesicle. Budding, vesicle formation, Hsp70 uncoats --> vesicle fuses with the endosome, the acidic environment causes the LDL and the receptor to dissociate. The receptor is recycled back to the plasma membrane. The LDL remains in the endosome until direction fusion with the lysosome occurs. LDL is broken down to free cholesterol, which goes into the cytoplasm. 
+
+### EGF receptor
+
+EGF can cause cancer if left switched on too long=  epidermal growth factor.
+
+EGF binds to the EGF receptor at the plasma membrane using a endocytosis signal: tyrosine -X-X-hydrophobic amino acid. EGF is taken up and ubiquitin is EGF receptor during endocytosis --> goes to the endosome. The EGF-receptor-ubiquitin complex is NOT dissociated but transported to the late endosome. This compartment can bud inwards, so EGF complex is sorted into the inner membrane by escort proteins tat target the ubiquitin. EGF complex ends up in the intra-luminal vesicles (ubiquitin might be removed before this stage?) --> signal is switched off! cytosolic part of the receptor is no longer at the cytosol so the signal cannot be maintained --> when endosome fuses with lysosome everything is degraded.   
+
+The invagination processes are essential for complete digestion of endocytosed membrane proteins: because the outer membrane of the multivesicular body becomes continuous with the lysosomal membrane, which is resistant to lysosomal hydrolases; the hydrolases, for example, could not digest the cytosolic domains of endocytosed transmembrane proteins, such as the EGF receptor shown here, if the protein were not localised in intralumenal vesicles.
