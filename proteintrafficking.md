@@ -1,4 +1,4 @@
-#L11&12: Protein Trafficking
+# L11&12: Protein Trafficking
 
 *Subcellular compartmentalisation and the problem of getting proteins to the right place i.e. protein trafficking. Proteins encoded by nuclear genes begin synthesis in the cytosol. Proteins destined to remain in the cytosol have no sorting signals (the default pathway): targeting to other destinations requires sorting signals.*
 
@@ -42,7 +42,7 @@ Protein with it's signal sequence needs to cross the bilipid layer: macromolecul
 + both channel and receptor made of protein 
 
 
-### *Nuclear protein import and export. See Lodish, pg. 615-621, Alberts, pg. 649-657*
+### Nuclear protein import and export. See Lodish, pg. 615-621, Alberts, pg. 649-657
 
 **Nucleus = double membrane, have nuclear pores that span the inner and outer membranes & extend into the nucleus.**
 
