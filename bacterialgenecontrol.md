@@ -1,4 +1,4 @@
-### L7&8: Gene regulation in bacteria
+### L7: RNA Polymerase
 
 Aims of these lectures:
 1. The role of RNA polymerase and the transcription of an RNA molecule from
