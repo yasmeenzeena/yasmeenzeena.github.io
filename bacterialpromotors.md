@@ -1,4 +1,4 @@
-### L8: Bacterial gene control
+## L8: Bacterial gene control
 
 Aims of this lecture:
 + The bacterial operon:
@@ -117,3 +117,113 @@ The CAP protein increase the affinity of RNA polymerase for the weak lac operon.
 CAP binding to the CAP site on the DNA causes the DNA to bend 90 degrees, which
 increases the affinity for RNA polymerase. The CTD (carboxyl terminal domain) of the RNA
 polymerase binds to the CAP protein now that the DNA is bent.
+
+> Lactose paradox: how can lactose induce the operon if the lacY gene is needed
+to transport lactose into the cell initially? A: The lac repressor is a highly
+specific DNA binding protein that binds very tightly to O1 and O2. But no
+protein can bind forever. When it dissociates, an mRNA is made and some
+permease and some β-galactosidase is synthesized. The repressor quickly rebinds
+and transcription is blocked.
+
+>The effect of this "escape" synthesis is that there will always be a few
+molecules of permease and a few molecules of β-galactosidase inside the cell.
+When the cell encounters lactose in the medium enough can be taken up and
+converted to allolactose to induce the operon.
+http://sandwalk.blogspot.co.uk/2008/10/lactose-paradox.html
+
+SUMMARY:
+1. Lactose present, no glucose:
+cAMP binds to CAP, making CAP able to bind DNA
+Bound CAP helps RNA polymerase attach to the lac operon promoter
+Lactose in cell via lactose permease
+Lactose --> allolactose via β-galactosidase
+Allolcatose binds to repressor preferentially
+RNA polymerase can now transcribe!
+
+2. Only glucose:
+High glucose means low cAMP as adenylyl cyclase is involved in the first
+stage of glycolysis not cAMP production
+Lack of cAMP = no activation of catabolite activator protein, CAP
+RNA polymerase cannot bind to the weak promoter
+No transcription of Z Y A genes
+
+3. No sugars:
+lac operon is not activated
+cAMP is high so CAP is activated but
+repressor from LacI is bound to the operator site
+
+
+# Regulation of the tryptophan operon by a repressor protein and by the process of attenuation (repressible operators)
+Transcription is turned off when enough of the product is made in a cell. e.e. trp operon,
+involved in tryptophan. Transcription of trp is high when [trp] is low, but drops off once
+enough is made. The trp operon is expressed (turned "on") when tryptophan levels are
+low and repressed (turned "off") when they are high.
+https://www.khanacademy.org/science/biology/gene-regulation/gene-regulation-inbacteria/
+a/the-trp-operon
+
+![trpnormal](https://ka-perseus-images.s3.amazonaws.com/af4a7fca79841d5578f4fc1352c1ed3afd6252cc.png)
+
+The operon here involves five genes (E to A are structural) with a single promoter and
+operator. Between the operator and the first gene is the leader sequence. The leader
+encodes a short polypeptide and also contains an attenuator sequence. Overall
+regulation happens in two ways: through the attenuator sequence (which is transcribed
+into mRNA) or through a repressor binding.
+
+When try is present in high enough quantities the trp repressor binds to the operon and
+stops RNA polymerase from transcribing the genes, thus switching off the cell's ability to
+make more trp. Here trp is considered a corepressor because it binds to the trp
+repressor and activates it, allowing it to bind to the operon.
+
+![trp](https://cdn.kastatic.org/googleusercontent/2yG6GdBT6ER5UaZnURjoV9XjJJtP-wG6zrleIbU1o84-2uARriq931HT8rpYwtltVA1hQLKoJDptZqJ0kTFoC2o)
+
+The trp repressor is encoded by a trp R gene, which is not located in the trp operon & has
+it's own promoter. The protein it makes is called a "apo-repressor" aka needs a
+corepressor to function.
+
+In low trp concentration, the trp repressor is not activated and will not bind. In this
+system, the trp repressor acts as both a sensor and a switch. It senses whether
+tryptophan is already present at high levels, and if so, it switches the operon to the "off"
+position.
+
+**Attenutation** is another mechanism to stop trp production - it stops the completion of the
+mRNA and halts transcription. Once the leader strand is transcribed into mRNA it can be
+translated immediately (prokaryote host!) and it makes 2 try residues and the attenuator
+sequence.
+
+If trp conc is high the ribosome translates all of leader mRNA region one quickly and
+stops at the stop codon in region two. As region two is covered by the ribosome regions
+3&4 hydrogen bond together, creating a hairpin loop structure. This is a Ro independant
+terminator which results in the dissociation of RNA polymerase. The structural genes
+cannot be transcribed now!
+
+![hightrp](https://ka-perseus-images.s3.amazonaws.com/8ca61b144a579573b680ece8b0a2308309097ec1.png)
+
+When trp is low the ribosome binds at methionine but is stopped at the trp
+codons and waits for tRNA. This allows region 2 to hydrogen bond to region 3
+--> stops 3&4 bonding (4 hasn't been transcribed yet) so no hairpin loop
+structure forms. The RNA polymerase is not dissociated and the ribosome
+continues along.
+
+![trplow](https://ka-perseus-images.s3.amazonaws.com/8a8dc622739e582c1c1fc32ddfbe2dd1c99d237c.png)
+
+If the leader mRNA sequence is translated quickly, because the tRNA can bring the trp
+resides over immediately due to their high intracellular concentration, the ribosome will
+not pause at all. . aka Rho independent termination.
+
++ RNA poly has just made mRNA out of the leader and attenuator strand, is at the
+structural genes
++ Ribosome attaches right after and beings to translate the mRNA
++ It reaches the trp codons in the leader mRNA first
++ Low trp levels:
+1. tRNA takes a while to bring the trp, ribosome pauses in the middle of region
+one
+2. this allows regions 2&3 to hydrogen bond together
+3. no hairpin loop structure is made
+4. once the trp residues are added ribosome continues normally
++ High trp levels:
+1. the tRNA brings the trp quickly
+2. ribosome only pauses at the stop codon in region 2 of the leader mRNA
+3. region two is blocked so region 3 hydrogen bonds to region 4, causing a
+hairpin loop structure to form
+4. release of RNA polymerase
+5. structural genes cannot be transcribed
