@@ -77,7 +77,7 @@ Most E. coli promoters have a consensus sequence whereby the sigma factor bindin
 sites are the same! -35 has a TTGACAT sequence, and ~17 bp towards the +1 start site
 the -10 region has a sequence of TATAAT. -35 and -10 regions are close by so that the
 DNA doesn't twist around the protein by stays linearised.
-!(https://cdn.oxfordgenetics.com/Content/Images/bacterial-promoter.png)
+![bacterialpromotor](https://cdn.oxfordgenetics.com/Content/Images/bacterial-promoter.png)
 A specific experiment was designed to find exactly where the binding site was:
 1. Find the assumed binding site and make it radioactive, split into two test tubes
 2. Add RNA poly to the second test tube
@@ -89,11 +89,14 @@ Gel was run in a "maxim and gilbert" fashion i.e. chemical cleavage method, lane
 G&A, C, C&T (so a mark at G and G&A at the same level suggests a G, and a mark only at
 G&A is an A.)
 
-rRNA genes are slightly different as they also contain an UP element, which binds another
+rRNA genes are slightly different as they also contain an **UP element**, which binds another
 protein to speed up transcription. This makes their promoters stronger.
-
 
 Weaker promoters can occur when the promoter (-35 and -10 regions) have slightly
 different sequences to the conserved -> deviations weaken the sigma binding. This can
 actually aid regulation of a promoter e.g. lac operon, weakness allows a biological switch
 like lactose to turn it on/off.
+
+**B subunit role** = nucleotide binding and catalytic activity</br>
+**B' role** = DNA binding</br>
+**a role** = assembly of the core enzyme (holoenzyme) and aids promoter recognition</br>
