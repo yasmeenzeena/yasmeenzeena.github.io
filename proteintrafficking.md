@@ -1,4 +1,4 @@
-#L12&13: Protein Trafficking
+#L11&12: Protein Trafficking
 
 *Subcellular compartmentalisation and the problem of getting proteins to the right place i.e. protein trafficking. Proteins encoded by nuclear genes begin synthesis in the cytosol. Proteins destined to remain in the cytosol have no sorting signals (the default pathway): targeting to other destinations requires sorting signals.*
 
