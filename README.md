@@ -5,7 +5,8 @@ Second Year
 <summary>BIOC2001: Molecular Biology</summary>
 <br>
 <ul>
-        		<li><a href="https://yasmeenzeena.github.io/bacterialgenecontrol">Bacterial Gene Control</a></li>
+        		<li><a href="https://yasmeenzeena.github.io/bacterialgenecontrol">L7: RNA polymerase</a></li>
+	                <li><a href="https://yasmeenzeena.github.io/bacterialpromotors">L8: Bacterial gene control</a></li>
 	        	<li><a href="/about">Protein Trafficking</a></li>
         		<li><a href="/cv">Eukayrotic Gene Control</a></li>
         		<li><a href="/blog">ETC</a></li>
