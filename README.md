@@ -3,10 +3,8 @@
 	<details>
 <summary>Second Year</summary>
 <br>
-BIOC2001 .
-<details>
-	
-	
+BIOC2001.
+<2001>
 <ul>
         		<li><a href="https://yasmeenzeena.github.io/bacterialgenecontrol">Bacterial Gene Control</a></li>
 	        	<li><a href="/about">Protein Trafficking</a></li>
