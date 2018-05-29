@@ -110,3 +110,73 @@ U1 binds to the 5’ splice site at GU, and U2 binds to the A residue in the int
 All proteins left on the lariate to leave the RNA “clean” for translation.
 
 ![urnas](https://www.mpibpc.mpg.de/289655/original-1335965016.jpg?t=eyJ3aWR0aCI6ODAwLCJoZWlnaHQiOjYwMCwib2JqX2lkIjoyODk2NTV9--29621efe587f6d59729cfc050243fec63dc53e55)
+
+### Intron evolution:
++ might have started with self splicing mechanisms that then become more complex and the splisosome grew up around it
++ spliceosomal introns are absent in prokaryotes
++ EARLY INTRON MODEL:
+1. irons found in modern species are still ancient in origin -> conserved
+2. conservation of splisosome across eukaryotes suggests complex spliceosome in the ancestor of all eukaryotes
+3. suggestion that introns were already numerous in early eukaryotes and current species have experienced intron loss since then
+4. intron loss from recombination of the DNA and the reverse transcript of the spliced mRNA
+5. In this model, introns were then lost from prokaryotic genomes
++ LATE INTRON MODEL:
+1. the phylogenetic restriction of spliceosomal introns to eukaryotes reflects their more recent insertion into originally 2. intronless genes after the divergence of eukaryotes and prokaryotes [not in prokaryotes so much have evolved after the split]
+3. introns evolved from type II bacterial introns in relatively early eukaryotes
+
+### Gene regulation in eukaryotes
+
+Are all proteins made: Use Western Blotting to compare protein production in different tissues -> shows that some proteins are only translated in some tissues, hence protein control must be tissue specific.
+
+Are all mRNAS made: Use northern blotting [RNA electrophoresis then probe the membrane] or microarrays to see if all mRNA of protein coding is made in each tissue type or not. Answer: no! Use a microarray with all genes and hybridise them with labelled mRNA -> shows that not all genes make mRNA in every tissue, so we have transcriptional control.  Northern blotting shows mRNA differences in one gene between two tissues whereas microarrays are wider.
+
+Transcriptional control is the main control -> all DNA is present in every cell but only some mRNAs are made, hence transcription is regulated (use Northern blotting to show this.)
+
+Is all DNA present in all tissues: DNA is *usually* present in all cells, although:
+
++ **DNA loss**: doesn’t occur since chromosomes look the same in all cells, and if DNA loss would occur further differentiation would be impossible -> disproven by *totipotency* = take an enucleated egg cell and put in a differentiated nucleus = adult frog made. + Dolly the sheep.  If you remove lens cells in an amphibian the iris cells differentiate into lens cells = *transdifferentiation*; go back into stem cells then divide into lens cells
+1. RBC lose their nucleus to give more room for O2 carrying haemoglobin, long lived globin mRNAs are laid down in the cell for global creation
++ **DNA amplification**: i.e. genes needed in a tissue are specifically amplified so make many copies. Molecular biology experiment: Southern blotting and probes show that genes in different tissues have the same banding pattern so no DNA loss and no amplification since should get different bands.
+1. Drosophila: nurse cells surrounding the eggs add egg shell proteins (chorion.) Chorion genes are amplified in the nurse cells (shows more intense bands) because they need to be made very quickly.  
+2. Cancer: Genomic DNA copy number aberrations are frequent in solid tumors and are expected to contribute to tumor evolution by copy number-induced alterations in gene expression. 
++ **DNA rearrangement**: promotor or enhancer brought need the needed genes, so in southern blotting we should get different bands since enzymes would cut in different places -> banding pattern disproves rearrangement
+1. Rearrangement of DNA in immunoglobulin genes -> rearrangement of the light chain results in linkage of variable V and joining J region (removed DNA in between) so gene is switched on + gives specificity depending on which V andJ are joined
+
+Therefore = **DNA expression is regulated! Differential expression = gene regulation!**
+
+Is control at transcription or after? mRNA is made only from active genes: this is shown through experiments that prove that non active mRNA is not made and quickly degraded:
+
+1. Inactive genes might be made: make a Northern blot targeted to nuclear mRNA (homogenise nucleus to get snapshot) which would show if inactive genes are transcribed-> no evidence of this, only get active genes made into mRNA and pre spliced sequences. Steady state measure so cannot prove transcriptional control only support it.  
+
+2. Inactive genes might get degraded quickly: measure actual rates of gene transcription by pulse labelling:
+
+3. *pulse labelling* -> add in radioactive UTPs and see what type of mRNA is synthesised (only works for RNA with a high synthesis level since radioactivity can only briefly be pulsed. Method is very insensitive, only works about about 20 genes that are highly synthesised.)
+
+4. *nuclear run on assay* -> to get a higher efficiency with the pulse labelling method remove the cytoplasm and add radioactive UTP directly to the nucleus so only radioactive nucleotides are available (less dilute)
+remove cytoplasm = RNA polymerases stall on the gene
+add radioactive nucleotides
+polymerases start again, transcription occurs
+run a “nuclear run off” assay to see what mRNA is made [i.e. basically northern blotting, hybridise and see if the mRNA is present in two different tissue types, for e.g. ]
+hybridise the extracted RNA to gene specific probes on a blot
+
+5. Salivary glands of Drosophila has polytene chromosome / giant chromosome [multiple rounds of replication produce many sister chromatids which stay fused together] due to global DNA amplification (unknown why this occurs.) Treat with steroid hormone and parts of the chromosome puff outwards (if you heat different parts puff outwards) -> puffs represent sites of transcription, puffing caused by new transcription -> prove this by giving steroid hormones and radioactive UTP to make radio-labelled RNA -> hydrides radioactive RNA back to the chromosomes = see where it was transcribed from, see that the mRNA hybridises with the puffs. If the puff disappears so does the RNA hybridisation site since they are one and the same. Visualisation of transcriptional control!
+
+^ all proves that control is at transcription. Most expensive step of expression is translation so best to have transcriptional control to minimise lost ATP.
+
+### POST TRANSCRIPTIONAL CONTROL: specific cases
+
+**Precursor-RNA control**: RNA processing control. In Drosphila “incorrect” splicing to not remove introns can mark the presursor-mRNA for destruction; p element transposase gene controlled by this discard, only processed and made into protein in germline cells.
+
+**Alternate splicing in eukaryotes** -> RNA processing control = different exon arrangement from one gene, can splice the exon differently e.g. can make either calcitonin in the thyriod or CGPR in the brain from the same gene. Gene has two poly A tail sites so that either transcript will still have a poly A tail. Calcitonin = exons 1-4, CGPR = exons 1-3 and 5&6.
+
+e.g. antibodies are released from the cell by alternate splicing —> usually antibodies made with a hydrophobic tail (to sit in the membrane) but when under attack splicing pattern is changed to remove this exon from the immunoglobulin primary transcript’s C terminus, so that the antibodies can be released from the cell. So stage 1: membrane bound antibodies made in early immune response, stage 2: antigens binds, stimulates cells with correct antibody to proliferate, change in splicing to allow secreted antibodies.
+
+e.g. troponin always made in muscles, but spliced alternatively in different muscles
+
+**RNA stability** —> casein, protein in milk -> prolactin hormone stimulates the gene and stabilises the mRNA of casein.  
+
+e.g. histone production, stabilised by the stem loop structure rather than poly A tail, occurs during S phase when histone production is needed, stem loop not made outside of S phase.
+
+e.g. mRNA of globin gene kept stable in enucleated RBCs. Globin mRNA half-lives vary from 10 to 24 hours. thalassemia = disease caused by mutation of DNA than inhibits globin mRNA transcription/processing e.g. blocks polyadenylation.
+
+e.g. iron-responsive element stabilised by iron regulatory proteins binding the transferrin receptor mRNA or the DMT1 mRNA.
