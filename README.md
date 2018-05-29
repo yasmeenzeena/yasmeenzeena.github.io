@@ -1,7 +1,8 @@
 # Notes from UCL biochemistry:
 
+Second Year
 <details>
-<summary>2001</summary>
+<summary>BIOC2001: Molecular Biology</summary>
 <br>
 <ul>
         		<li><a href="https://yasmeenzeena.github.io/bacterialgenecontrol">Bacterial Gene Control</a></li>
@@ -11,4 +12,36 @@
     		</ul>
 <details>
 	
+<details>
+<summary>BIOC2005: Metabolism</summary>
+<br>
+<ul>
+        		<li><a href="/">na</a></li>
+	        	<li><a href="/">na</a></li>
+        		<li><a href="/">na</a></li>
+        		<li><a href="/">na</a></li>
+    		</ul>
+<details>	
 
+<details>
+<summary>PHAR2001: Drugs & the Mind</summary>
+<br>
+<ul>
+        		<li><a href="/">na</a></li>
+	        	<li><a href="/">na</a></li>
+        		<li><a href="/">na</a></li>
+        		<li><a href="/">na</a></li>
+    		</ul>
+<details>
+	
+	
+<details>
+<summary>CHEM2601: Chemistry of Biologically Important Molecules </summary>
+<br>
+<ul>
+        		<li><a href="/">na</a></li>
+	        	<li><a href="/">na</a></li>
+        		<li><a href="/">na</a></li>
+        		<li><a href="/">na</a></li>
+    		</ul>
+<details>
