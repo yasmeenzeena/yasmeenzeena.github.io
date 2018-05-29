@@ -10,7 +10,7 @@ Second Year
         		<li><a href="/cv">Eukayrotic Gene Control</a></li>
         		<li><a href="/blog">ETC</a></li>
     		</ul>
-<details>
+</details>
 	<br>
 <details>
 <summary>BIOC2005: Metabolism</summary>
@@ -21,7 +21,7 @@ Second Year
         		<li><a href="/">na</a></li>
         		<li><a href="/">na</a></li>
     		</ul>
-<details>	
+</details>	
 <br>
 <details>
 <summary>PHAR2001: Drugs & the Mind</summary>
@@ -32,7 +32,7 @@ Second Year
         		<li><a href="/">na</a></li>
         		<li><a href="/">na</a></li>
     		</ul>
-<details>
+</details>
 	<br>
 	
 <details>
@@ -44,5 +44,5 @@ Second Year
         		<li><a href="/">na</a></li>
         		<li><a href="/">na</a></li>
     		</ul>
-<details>
+</details>
 <br>
