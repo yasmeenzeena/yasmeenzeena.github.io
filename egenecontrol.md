@@ -32,7 +32,7 @@ RNA polymerase I = ribosomal RNAs<br/>
 
 Function was found by using alpha amanitin to inhibit RNA polymerases -> II inhibited first, so mRNA production lost, then III knocked out to lose transcription of tRNA and others.
 
-###RNA polymerase II:
+### RNA polymerase II:
 
 Promoter = TATA box at -30 upstream, found in most eukaryotic genes, defines the start site (if you move TATA you move start site, TATA box defines start site 30 base pairs downstream from it’s location) & transcription factor binding sites e.g. SP1 -> delete TTA box to stop transcription to show that it’s an initiation factor.
 
@@ -47,7 +47,7 @@ Note: RNA polymerases never recognise DNA sequences, but recognise transcription
 
 summary: TF2D & A —> TF2B —> RNA polymerase & TF2F —> TF2H —> all dissociate but TF2D&A
 
-####Enhancer
+#### Enhancer
 = interacts with the promoter to increase transcription rate, distance not an issue, can be anywhere on the gene, in any orientation: action is independent of distance, orientation and position. Binding site of a transcription factor.
 e.g. SP40 eukaryotic virus has:
 + CAT box (binding site for the RNA transcription factor)
@@ -59,7 +59,7 @@ Enhancer action can open the chromatin to allow the TF2D to bind more easily. Ho
 Note: in humans many promoters contain CpG islands (i.e. cystine residue on the CpG dimer is methylated) -> act as sites of transcription initiation (70% of human genes, all housekeeping ones), usually wont coincide with a TATA box, will allow transcription start over a range of sites (not as focused.) BUT e.g. -globin gene has a TATA box and a CpG island.
 > A. Deaton CpG islands and the regulation of transcription 2011
 
-###RNA polymerase I:
+### RNA polymerase I:
 
 Transcribes one gene for ribosomes, which is repeated in tandem in the DNA with spacers in between which are not transcribed. Makes 28S, 18S and 5.8S ribosome units = 45S precursor made then cleaved. No splicing in humans, need constant ribosome expression so don’t need control.
 
@@ -68,14 +68,14 @@ Transcribes one gene for ribosomes, which is repeated in tandem in the DNA with 
 
 self splicing occurs in protozoa (tetrahymena) not humans -> intron in the primary rRNA transcript splices itself out, no need for protein assembly so can be done in vitro with just ion solutions -> Nobel prize for organic solution self splicing. All splicing info is held within the RNA.  [origin of splicing!]   
 
-###RNA polymerase III:
+### RNA polymerase III:
 5S of ribosome and tRNA
 
 5S ribosomal RNA, genes are tandemly repeated in the DNA, has internal promoters —> TF3A and TF3C bind to the site at +50, TF3B binds at the +1 site, RNA polymerase III is recruited. Found by removing the upstream sequence and transcription still occured. Deletion of downstream also continued to allow transcription.
 
 as 5S concentration goes up TF3A starts to bind to the mRNA sequence as well as the DNA sequence -> removes TF3A from DNA so acts as a negative feedback to lower 5S concentration.
 
-###mRNA assembly:
+### mRNA assembly:
 
 **Addition of 5’ cap**: a methylated guanosine is added to the first transcribed base via a 5’-5’ interaction [i.e. the phosphate on the C5 of the nucleotide is bound to the c5 of the guanosine.] 5 prime to 5 prime bond so different to other phosphodiester bonds. The N7 position is methylated. Post transcriptional modification. Not encoded by DNA, added de novo. Ribosome binds to the 5’cap (guide feature) and initiates translation at the AUG codon. Polio virus doesn’t cap their mRNA -> protein binds to end of the RNA, allows it to be translated, so a cap mimicking protein + polio destroys the capping system of the host so only virus RNA translated.
 
