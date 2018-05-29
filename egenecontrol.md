@@ -31,3 +31,46 @@ RNA polymerase II = mRNA from protein coding genes<br/>
 RNA polymerase I = ribosomal RNAs<br/>
 
 Function was found by using alpha amanitin to inhibit RNA polymerases -> II inhibited first, so mRNA production lost, then III knocked out to lose transcription of tRNA and others.
+
+###RNA polymerase II:
+
+Promoter = TATA box at -30 upstream, found in most eukaryotic genes, defines the start site (if you move TATA you move start site, TATA box defines start site 30 base pairs downstream from it’s location) & transcription factor binding sites e.g. SP1 -> delete TTA box to stop transcription to show that it’s an initiation factor.
+
+TATA box = non-coding DNA sequence (cis-regulatory element)
+
+TATA box recognised by TFIID and TFIIA “recognition event” —> (transcription factor 2 stands for RNA polymerase 2)
+then TF2B also binds —> RNA polymerase 2 recognises and binds to TF2D,A&B —> TF2F associated with RNA polymerase and also binds —> TF2H binds and phosphorylates the polymerase (a kinase), so transcription may begin —> TF2D and A are left on the DNA for the next transcription event
+
+Note: RNA polymerases never recognise DNA sequences, but recognise transcription factors bound to the DNA!
+
+^”*basal transcriptional complex*” slow rate hence “basal” so needs transcription factors
+
+summary: TF2D & A —> TF2B —> RNA polymerase & TF2F —> TF2H —> all dissociate but TF2D&A
+
+####Enhancer
+= interacts with the promoter to increase transcription rate, distance not an issue, can be anywhere on the gene, in any orientation: action is independent of distance, orientation and position. Binding site of a transcription factor.
+e.g. SP40 eukaryotic virus has:
++ CAT box (binding site for the RNA transcription factor)
++ SP1 binding site (SP1 = zinc finger transcription factor that binds to GC-rich motifs)  
++ 5000bp so easier to study, has all the eukaryotic transcription control sequences
+
+Enhancer action can open the chromatin to allow the TF2D to bind more easily. How does an enhancer effect the promotor? Idea could be “tracking” - a protein binds the enhancer and then searches downstream until it finds the promoter, or “looping”, where the enhancer and promoter are close together in three-dimensional space.
+
+Note: in humans many promoters contain CpG islands (i.e. cystine residue on the CpG dimer is methylated) -> act as sites of transcription initiation (70% of human genes, all housekeeping ones), usually wont coincide with a TATA box, will allow transcription start over a range of sites (not as focused.) BUT e.g. -globin gene has a TATA box and a CpG island.
+> A. Deaton CpG islands and the regulation of transcription 2011
+
+###RNA polymerase I:
+
+Transcribes one gene for ribosomes, which is repeated in tandem in the DNA with spacers in between which are not transcribed. Makes 28S, 18S and 5.8S ribosome units = 45S precursor made then cleaved. No splicing in humans, need constant ribosome expression so don’t need control.
+
+1. upstream binding factor (UBF) binds the rRNA gene promotor -50 upstream
+2. SL1 factor allows RNA polymerase 1 recruitment —> transcription occurs
+
+self splicing occurs in protozoa (tetrahymena) not humans -> intron in the primary rRNA transcript splices itself out, no need for protein assembly so can be done in vitro with just ion solutions -> Nobel prize for organic solution self splicing. All splicing info is held within the RNA.  [origin of splicing!]   
+
+###RNA polymerase III:
+5S of ribosome and tRNA
+
+5S ribosomal RNA, genes are tandemly repeated in the DNA, has internal promoters —> TF3A and TF3C bind to the site at +50, TF3B binds at the +1 site, RNA polymerase III is recruited. Found by removing the upstream sequence and transcription still occured. Deletion of downstream also continued to allow transcription. 
+
+as 5S concentration goes up TF3A starts to bind to the mRNA sequence as well as the DNA sequence -> removes TF3A from DNA so acts as a negative feedback to lower 5S concentration.
