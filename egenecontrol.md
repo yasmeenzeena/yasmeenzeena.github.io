@@ -71,6 +71,42 @@ self splicing occurs in protozoa (tetrahymena) not humans -> intron in the prima
 ###RNA polymerase III:
 5S of ribosome and tRNA
 
-5S ribosomal RNA, genes are tandemly repeated in the DNA, has internal promoters —> TF3A and TF3C bind to the site at +50, TF3B binds at the +1 site, RNA polymerase III is recruited. Found by removing the upstream sequence and transcription still occured. Deletion of downstream also continued to allow transcription. 
+5S ribosomal RNA, genes are tandemly repeated in the DNA, has internal promoters —> TF3A and TF3C bind to the site at +50, TF3B binds at the +1 site, RNA polymerase III is recruited. Found by removing the upstream sequence and transcription still occured. Deletion of downstream also continued to allow transcription.
 
 as 5S concentration goes up TF3A starts to bind to the mRNA sequence as well as the DNA sequence -> removes TF3A from DNA so acts as a negative feedback to lower 5S concentration.
+
+###mRNA assembly:
+
+**Addition of 5’ cap**: a methylated guanosine is added to the first transcribed base via a 5’-5’ interaction [i.e. the phosphate on the C5 of the nucleotide is bound to the c5 of the guanosine.] 5 prime to 5 prime bond so different to other phosphodiester bonds. The N7 position is methylated. Post transcriptional modification. Not encoded by DNA, added de novo. Ribosome binds to the 5’cap (guide feature) and initiates translation at the AUG codon. Polio virus doesn’t cap their mRNA -> protein binds to end of the RNA, allows it to be translated, so a cap mimicking protein + polio destroys the capping system of the host so only virus RNA translated.
+
+**Poly A tail**: mRNA cleaved about 20-30bp downstream of the AAUAAA site = poly A site. Poly A site is preserved (we cut after it) and then 200 A residues are added for stability (protects from degradation like a telomere.) GU rich sequence is cleaved.
+
+CPSF factor binds to the AAUAAA region, and CstF binds to the G/U sequence downstream of the poly adenylation site.
+
+![polyA](http://www.imgt.org/IMGTeducation/Aide-memoire/_UK/poly/polyadenylation.png)
+
+The complexes bind together to fold the mRNA over, exposing the poly A site for cleavage. The sequence with CstF is degraded, whilst the main mRNA sequence with the CPSF has a poly A tail added by poly A polymerase. 3’ ends usually vulnerable to exonuclease function, protected by tail. Not occurring on rRNA or tRNA so good way to select protein coding mRNA by using t affinity chromatography. Histones don’t have poly A tails -> have a stem loop structure instead via base pairing. When histone protein replication occurs (in S phase) stem loop structure is present so histones made from the mRNA, but in other phases the stem loop doesnt form -> no RNA made so no translation as we don’t need -> example of translational control.
+
+> nuclear export of mRNAs: mRNA with bound proteins = messenger ribonucleoprotein; hnRNP C tetramer measures transcript length, Tap-p15 mediates mRNA translocation by associating with FG repeats on nucleoporins in the nuclear envelope. “Nuclear Export of Messenger RNA” 2015 J. Katahira.
+
+**Splicing**: must remove the introns from mRNA (non coding DNA present in the gene and in the primary transcript of mRNA.) Once mRNA leaves the nucleus it must be fully processed i.e. only exons. Exon exit the nucleus, introns stay.
+
+GU —-> intron <—— AG
+
+Thus 5’ splice site = GU, 3’ splice site = AG
+
+5’ splice site is cut, leaving exon 1 and intron&exon2.
+
+Exon 1 could react back to remake the previous structure, as it is held by the splisosome in place, but a lariat is formed by the intron: the 5’-UG reacts with an A residue (branch point) in the intron via a 5’-2’ bond (since the 3’-OH is being used in the DNA backbone.)5’ G cannot now back-react. Once the system has defined the branch point, the next AG  (3’ splice site) is cut to release exon 2.
+
+![splice](https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/RNA_splicing_reaction.svg/400px-RNA_splicing_reaction.svg.png)
+
+Guiding molecules: splisosome has *URNAs* (rich in uridine) to catalyse splicing progress.
+
+Exon 1 held in place by the splisosome organelle so cannot diffuse away. [Autoimmune disease SLE -> antibodies made against their own proteins to inhibit splicing. Used to study splicing reaction.] SM proteins are associated with URNAs.
+
+U1 binds to the 5’ splice site at GU, and U2 binds to the A residue in the intron, aka the branch point. U5 binds to exon 1. U4/6 replaces U1 at the UG 5’ splice site, resulting in U6 and U2 interaction -> this bends the DNA and allows the lariat to form. Now the 5’ splice site can be cut —-> exon 1 released, lariat and exon two remain —> exon 2 released by 3’ splicing —-> intron with associate proteins is free
+
+All proteins left on the lariate to leave the RNA “clean” for translation.
+
+![urnas](https://www.mpibpc.mpg.de/289655/original-1335965016.jpg?t=eyJ3aWR0aCI6ODAwLCJoZWlnaHQiOjYwMCwib2JqX2lkIjoyODk2NTV9--29621efe587f6d59729cfc050243fec63dc53e55)
