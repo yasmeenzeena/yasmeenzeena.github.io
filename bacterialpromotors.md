@@ -19,7 +19,9 @@ other proteins are linked to nutrient amounts in the environment.
 Genes coding for proteins involved in same metabolic pathway are clustered into an
 OPERON! Therefore a cluster of genes can make one long mRNA which is later split up
 into the individual proteins its codes for "polycistronic mRNA."
+
 ![polycistronic](http://bio1510.biology.gatech.edu/wp-content/uploads/2012/11/coupled-transcription-translation.jpg)
+
 The polycistronic mRNA will have a number of AUGs (methoinine = start codon) and
 UGAs (stop codon) to indicate where each polypeptide begins and ends in the RNA.
 When the mRNA is being translated the ribosome will bind to AUG, translate til UGA and
@@ -76,3 +78,42 @@ proteins are arranged in a
 tetramer, which forces the DNA strands to curve around the tetramer to allow binding to
 O1 and O3. There is another operator sequence much further downstream that has also
 been shown to form a loop with the primary O1.
+
+![o123](http://jb.asm.org/content/191/16/5301/F1.large.jpg)
+
+__If lactose is present the operon is
+activated!__ An isomer of lactose,
+allolactose, binds to the
+repressor protein and causes a
+conformational shift which
+results in the repressor
+dissociating from the
+operator region.
+
+**The lac operon is usually turned OFF** i.e. negative control as the bacteria prefer to use
+glucose over lactose: if glucose is present the lac operon transcription is inhibited
+[glucose metabolism doesn't need new proteins whilst lactose metabolism requires Z and
+Y and A so transcription and translation needed: energy conserved.]
+
+**Glucose inhibits the lac operon**, so that if lactose and glucose are both present there is
+no transcription of the genes! This is achieved through catabolite repression i.e. a glucose
+metabolite inhibits transcription (which proves the glucose metabolism is occurring and
+the cell doesn't need lactose.)
+
+When glucose enters the cell the first stage of glycolysis is it converted into glucose-6-
+phosphate. Since the glucose is phosphorylated the enzyme adenylyl cyclase is not, so it
+remains inactive. This enzyme can also make cAMP by adding a P to ATP, but this
+reaction only occurs when glucose is not present. Thus, increase in [glucose] = decrease
+in [cAMP].
+
+![adenylylcylase](http://cubocube.com/files/images/opengenetics/chapter12/image5.png)
+
+These cAMP molecules are able to bind to the catabolite activator protein and activate it,
+which allows it to bind to DNA. When cAMP is low, less CAP is activated and the RNA
+polymerase cannot bind. Thus, high glucose is able to inhibit the lac operon being
+transcribed.
+
+The CAP protein increase the affinity of RNA polymerase for the weak lac operon. The
+CAP binding to the CAP site on the DNA causes the DNA to bend 90 degrees, which
+increases the affinity for RNA polymerase. The CTD (carboxyl terminal domain) of the RNA
+polymerase binds to the CAP protein now that the DNA is bent.
