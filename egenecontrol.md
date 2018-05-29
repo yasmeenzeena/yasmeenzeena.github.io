@@ -211,3 +211,54 @@ Gene unwinds before transcription back into the beads on a string structure
 **acetylate the histones** -> Add CH3COO- at lysine and arginine residues. Activates transcription, either by recruiting TF or by blocking the inhibition of transcription [i.e. blocks molecule that keeps heterochromatin structure in place.] (probably a bit of both.) Use sodium buterate to inhibit deacetylation = increase of histone acetylation.
 
 **histone methylation** -> can either increase or decrease transcription; again arginine and lysine most often modified. Negative effects of histone methylation to block transcription: binding of siRNA to DNA recruits HP1 protein to methylate histones at inhibitory sites and recruits de novo methylase, Dnmt. H3 is the most oft-modified histone, and most of its modifications occur in its N terminus -> Lysine is modified by covalent attachment of one acetyl or one, two or three methyl groups to the nitrogen in its R group.
+
+Is all the DNA equally sensitive to these changes? No -> DNase 1 endonuclease experiment reveals hypersensitive sites within the DNA. More likely to be cut here. ***Hypersensitive sites*** = naked DNA, no histones. Very open structure therefore.
+
+Beta globin gene: sits on chromosome 11 and contains adult beta goblin, 2 gamma globins (one with glycine one with alanine) and an epsilon globin and a pseudogene. Alpha globin genes (3 types) are on chromsome 16. Adult Hb made from two alpha and two beta, embryonic Hb made from 2 gamma and an alpha, early embryo makes Hb from 2 epsilon and two alpha. No alpha in this gene -> present on another chromosome.
+
+### Hypersensitive sites
+are featured in locus control region (LCR.) Hypersensitive sites are introduced before each gene become used during development. If you add a globin gene into an animal it won’t get expressed unless the LCR is present. LCR binds regulatory proteins for transcription. We need epsilon made first, so introduce a hypersensitivity point there; then when we need gamma introduce on there, remove other one. etc. [The locus control region (LCR) is a long-range cis-regulatory element that enhances expression of linked genes at distal chromatin sites. It functions in a copy number-dependent manner and is tissue-specific, as seen in the selective expression of β-globin genes in erythroid cells.
++ LCR for b globin = 5 DNAse I–hypersensitive sites
++ Originally the epsilon gene is expressed, turned off at 8 weeks in humans then gamma expressed
++ After birth gamma is shut off and B-globin turned on
++ promoter still does basal transcription BUT LCR = tissue-specific enhancement of gene expression
++ LCR in human growth hormone associated with histone acetylation to allow transcription but not for the B-globin locus: histone H3/4 acetylation at promotor not a function of LCR
++ LCR action in b-globin gene:
+1. looping model where TF join LCR and promotor in 3D configuration to to aid transcription complex formation
+2. Tracking model where sequence specific TF bind LCR and continue to track down DNA sequence, initiates expression once it finds the correct TF bound to the right promotor
+3. Linking model where TF binds along the DNA between the LCR and the promotor = chromatin structure changes
+
+> Locus control regions, Blood 2002
+
+Drosophila: SGS4 gene mutation prevents expression of SGS4 due to loss of upstream hypersensitivity sites (deletion.)
+
+How is alpha globin coexpressed with other globins to make haemoglobin at different developmental stages? Integrator gene switched on by signal —> makes a factor to switch on more genes which have the target sequence e.g. switch on alpha and beta vs alpha and gamma
+
+e.g. heat shock element: HSE only in genes that respond the heat, like IRE only in genes responding to [iron.] If we move the HSE onto a new gene e.g. thymidine kinase now heat inducible. HSF made by integrator gene to switch on all HSE containing genes.
+
+### Short term control: Transcription Factors
+
+Domain for DNA binding, and one for transcriptional activation. HSF also has a hormone binding domain. TF binds to stimulate assembly of transcription complex and stimulates activity of complex to upregulate it.
+
+Negative transcription factors: interfere with positive TF mostly.
++ Inhibitor binds to DNA to alter chromatin structure so that positive TF can’t bind.
++ Inhibitor binds to the binding site to occupy it.
++ Inhibitor can form a complex with the activator so it cannot bind the DNA and gets stuck in the cytoplasm or other compartment.
++ Inhibitor can mask activation by binding next to activator = “quenching”.
++ Inhibitor is a protease, degrades activator
++ Indirect repression, blocks the activator
+
+Direct repression of transcription:
++ stops basal transcription complex
++ slows activity of transcription complex
+
+TFs can be made only in some tissues e.g. MyoD only made in muscle cells to aid differentiation [i.e. is what makes a cell a muscle cell] OR TF can only be activated in the necessary tissue e.g.
++ activation by a ligand
++ phosphorylation cascade triggered by a protein binding at the cell surface
++ cleavage of an inactive precursor; glucocorticode receptor accosiated with heat shock protein
+
+e.g. glucocorticode binds to the receptor to throw off the HSP, glucocorticode enters nucleus to bind to DNA [ligand binding and activation.]
+
+e.g. HSF bound to Hsp90 to be inactive, once temperature raised Hsp90 needs to deal with unfolded protein so unbinds, activates HSF by allowing it to form a trimer + needs to be phosphorylated = can bind to DNA
+
+e.g. IRP usually bound to the IRE on the mRNA of ferritin and transferrin receptors to block translation. Iron binds to IRP, conformational change, unbinds mRNA so translation can occur! So at high iron conc iron storage proteins increase. 
