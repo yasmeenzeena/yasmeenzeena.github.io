@@ -2,7 +2,7 @@
 
 *Subcellular compartmentalisation and the problem of getting proteins to the right place i.e. protein trafficking. Proteins encoded by nuclear genes begin synthesis in the cytosol. Proteins destined to remain in the cytosol have no sorting signals (the default pathway): targeting to other destinations requires sorting signals.*
 
-"protein trafficking = signal-based targeting * vesicle based trafficking
+"protein trafficking = signal-based targeting + vesicle based trafficking
 
 signal based targeting: cytoplasm -> specific organelle e.g. membrane proteins get inserted into the plasma bilayer, or for hydrophilic proteins allows insertion into an organelle through the bilayer. destination = ER, mitochondria, golgi, etc!
 
@@ -23,7 +23,7 @@ Quick overview of sorting: Fig. 13-1 p578 Lodish 7th edition  
 
 Each organelle carries a set of receptor proteins that bind only to specific kinds of signal sequences: protein is translocated across the membrane via a translocation channel (unidirectional, protein cannot slide back into cytoplasm, coupled to ATP.GTP)
 
-SIGNAL SEQUENCES:
+### SIGNAL SEQUENCES:
 
 ![signals](http://oregonstate.edu/instruction/bi314/fall11/table_15_03.jpg)
 
@@ -48,9 +48,9 @@ Protein with it's signal sequence needs to cross the bilipid layer: macromolecul
 
 Nuclear pore complex: made of many copies of about 30 different nucleoporin proteins -> octagonal, membrane-embedded ring structure that surrounds a largely aqueous pore. Three types of nucleoporins:
 
-+ structural nucleoporins: scaffold of the nuclear pore, seven of these make a Y complex aka the basic unit of the scaffold. Some of the scaffold nucleoporins are structurally related to vesicle coat protein complexes: suggests a common evolutionary origin for NPCs and vesicle coats.
-+ membrane nucleoporins:
-+ FG nucleoporins: line the channel, contain multiple repeats rich in phenylalanine and glycine. FG repeats are thought to have two main functions: interacting weakly with each other to create a gel like tangle which halts macromolecular diffusion of proteins above 40kDa through the pore, and also as dock sites for nuclear transport receptors. 
++ **structural nucleoporins**: scaffold of the nuclear pore, seven of these make a Y complex aka the basic unit of the scaffold. Some of the scaffold nucleoporins are structurally related to vesicle coat protein complexes: suggests a common evolutionary origin for NPCs and vesicle coats.
++ **membrane nucleoporins**:
++ **FG nucleoporins**: line the channel, contain multiple repeats rich in phenylalanine and glycine. FG repeats are thought to have two main functions: interacting weakly with each other to create a gel like tangle which halts macromolecular diffusion of proteins above 40kDa through the pore, and also as dock sites for nuclear transport receptors. 
 
 Nuclear pores are considered gated channels for larger polypeptides that require active transport through the channel. 
 
@@ -185,7 +185,7 @@ As the growing polypeptide chain enters the lumen of the ER, the signal sequence
 
 ![ctt](http://www.fisio.cinvestav.mx/posgrado/biologia-celular/lodish/ch16/figure-16-06.jpg)
 
-Co-translational summary:
+Co-translational translocation summary:
 
 	•	signal = extreme N terminus, positively charged amino acid (arginine/lysine) with a hydrophobic sequence following. Cleaved in the ER by signal peptidase enzyme. 
 	•	receptor part one = SRP, protein:RNA complex in cytosol
@@ -208,7 +208,7 @@ Co-translational summary:
   	3.	As more of the polypeptide enters the ER lumen it successively binds to multiple BiPs, stopping backsliding back into the cytosol. Polypeptide continues into the ER lumen studded with ADP molecules from the BiP binding. 
   	4.	BiP molecules spontaneously exchange their bound ADP for ATP, leading to release of the polypeptide, which can then fold into its native conformation. (kinda similar to mitochondrial import!)
 
-    *ER import summary:*
+*ER import summary:*
 
 + Via Sec61 complex translocon
 + Requires signal sequences: one or more charged aa followed by hydrophobic region 
@@ -254,7 +254,7 @@ Signals on the proteins: 3D patches, sequences, or even protein modifications ca
  
 All processes from the ER involves something other than translocation! Must use vesicle based trafficking now. 
 
-• Vesicular transport, and how proteins may be sorted into different vesicles. This section includes vesicle coats and the role they play in forming the vesicle and selecting the proteins to be included in it (“cargo” proteins). See Lodish 634-636 or Alberts pg. 697-699.
+*Vesicular transport, and how proteins may be sorted into different vesicles.* This section includes vesicle coats and the role they play in forming the vesicle and selecting the proteins to be included in it (“cargo” proteins). See Lodish 634-636 or Alberts pg. 697-699.
 
 Vesicles can form from an organelle: have coats, e.g. clathrin, COPI and COPII. Protein coats around the vesicles.
 
@@ -274,10 +274,10 @@ The assembly of vesicle coats also requires GTP-binding proteins, which appear 
 
 The clathrin coat is made up of clathrin and accessory proteins, which buds on the cytosolic facing membrane to allow the molecules to enter the cell/endosome. The process is described below:
 
-+ Coat assembly and cargo selection: The adaptor proteins bind to the cargo receptors on the membrane and recruit clathrin to the membrane. They decide which proteins will be added to the ligands. 
-+ Bud formation: Adaptor proteins are able to attract the necessary proteins. These proteins come together and introduce curvature into the membrane due to their large number, resulting in a bud forming. Receptor and cargo taken up into the bud.
-+ Vesicle formation: neck of the bud is severed by other membrane bending and fission proteins, a vesicle is formed. 
-+ Uncoating: the coat is rapidly lost once the vesicle forms (via ATPase of the Hsp70 family.) Clathrin and adaptor removed. Proteins of interest are in the transport vesicle -> binds to the endosome, first target of the endocytosis pathway. 
++ **Coat assembly and cargo selection:** The adaptor proteins bind to the cargo receptors on the membrane and recruit clathrin to the membrane. They decide which proteins will be added to the ligands. 
++ **Bud formation:** Adaptor proteins are able to attract the necessary proteins. These proteins come together and introduce curvature into the membrane due to their large number, resulting in a bud forming. Receptor and cargo taken up into the bud.
++ **Vesicle formation:** neck of the bud is severed by other membrane bending and fission proteins, a vesicle is formed. 
++ **Uncoating:** the coat is rapidly lost once the vesicle forms (via ATPase of the Hsp70 family.) Clathrin and adaptor removed. Proteins of interest are in the transport vesicle -> binds to the endosome, first target of the endocytosis pathway. 
 
 ![coat](https://i.ytimg.com/vi/tyA3Of8euBk/maxresdefault.jpg)
 
@@ -290,9 +290,9 @@ v-SNARE + t-SNARE = docking, vesicle and target membrane fusion* 
 
 The SNARE complex (trans-SNAR-pair) must be removed before membrane fusion by an ATPase complex called NSF, a six subunit protein with an associated alpha-SNAP molecule. This complex is a universal way to remove SNAREs, as contrasted to the many different types of v and t SNARES possible. ATP is used to remove the SNARE complex. 
 
-homotypic fusion = one compartment with itself e.g. early endosome + early endosome
-heterotypic fusion = different membranes fusing together
-^ same mechanism for both
+homotypic fusion = one compartment with itself e.g. early endosome + early endosome <br/>
+heterotypic fusion = different membranes fusing together <br/>
+^ same mechanism for both <br/>
 
 ### The sorting of both integral-membrane and soluble ER resident proteins
 
@@ -332,7 +332,7 @@ Two models for proteins getting through the Golgi:
 	1.	Vesicular transport method: from each compartment a vesicle is budded off and fuses with the next compartment along 
 	2.	Cisternal maturation model: favoured model, idea is that a compartment matures into the next one, so no vesicle action. cisGolgi becomes medial, medial matures intro trans etc. After the trans-Golgi complex vesicles bud off to go to the next organelle. Maturation works via "back transport" -> enzymes go backwards over time e.g. enzymes of the transGolgi travel back to the medial, which results in the medial becoming the transGolgi. Each compartment 'moves up one' going right to left. 
 
-![cisternalmaturation](https://www.researchgate.net/publication/11229295/figure/fig1/AS:271550448402476@1441754081224/The-cisternal-maturation-model-for-Golgi-functionCoatomer-protein-complex-COPII.png)
+![cisternalmaturation](https://ars.els-cdn.com/content/image/1-s2.0-S0014579309008527-gr1.jpg)
 
 ### The sorting of soluble lysosomal proteins: the mannose-6-phosphate system
 
@@ -350,7 +350,7 @@ LDL receptor is on the plasma membrane and binds LDL, using the FDNPVY signal (e
 
 ### EGF receptor
 
-EGF can cause cancer if left switched on too long=  epidermal growth factor.
+EGF can cause cancer if left switched on too long =  epidermal growth factor.
 
 EGF binds to the EGF receptor at the plasma membrane using a endocytosis signal: tyrosine -X-X-hydrophobic amino acid. EGF is taken up and ubiquitin is EGF receptor during endocytosis --> goes to the endosome. The EGF-receptor-ubiquitin complex is NOT dissociated but transported to the late endosome. This compartment can bud inwards, so EGF complex is sorted into the inner membrane by escort proteins tat target the ubiquitin. EGF complex ends up in the intra-luminal vesicles (ubiquitin might be removed before this stage?) --> signal is switched off! cytosolic part of the receptor is no longer at the cytosol so the signal cannot be maintained --> when endosome fuses with lysosome everything is degraded.   
 
