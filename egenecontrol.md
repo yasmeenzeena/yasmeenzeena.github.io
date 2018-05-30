@@ -240,7 +240,7 @@ e.g. heat shock element: HSE only in genes that respond the heat, like IRE only 
 
 Domain for DNA binding, and one for transcriptional activation. HSF also has a hormone binding domain. TF binds to stimulate assembly of transcription complex and stimulates activity of complex to upregulate it.
 
-Negative transcription factors: interfere with positive TF mostly.
+**Negative transcription factors:** interfere with positive TF mostly.
 + Inhibitor binds to DNA to alter chromatin structure so that positive TF can’t bind.
 + Inhibitor binds to the binding site to occupy it.
 + Inhibitor can form a complex with the activator so it cannot bind the DNA and gets stuck in the cytoplasm or other compartment.
@@ -248,11 +248,11 @@ Negative transcription factors: interfere with positive TF mostly.
 + Inhibitor is a protease, degrades activator
 + Indirect repression, blocks the activator
 
-Direct repression of transcription:
+**Direct repression of transcription:**
 + stops basal transcription complex
 + slows activity of transcription complex
 
-TFs can be made only in some tissues e.g. MyoD only made in muscle cells to aid differentiation [i.e. is what makes a cell a muscle cell] OR TF can only be activated in the necessary tissue e.g.
+**TFs can be made only in some tissues** e.g. MyoD only made in muscle cells to aid differentiation [i.e. is what makes a cell a muscle cell] OR TF can only be activated in the necessary tissue e.g.
 + activation by a ligand
 + phosphorylation cascade triggered by a protein binding at the cell surface
 + cleavage of an inactive precursor; glucocorticode receptor accosiated with heat shock protein
@@ -261,4 +261,4 @@ e.g. glucocorticode binds to the receptor to throw off the HSP, glucocorticode e
 
 e.g. HSF bound to Hsp90 to be inactive, once temperature raised Hsp90 needs to deal with unfolded protein so unbinds, activates HSF by allowing it to form a trimer + needs to be phosphorylated = can bind to DNA
 
-e.g. IRP usually bound to the IRE on the mRNA of ferritin and transferrin receptors to block translation. Iron binds to IRP, conformational change, unbinds mRNA so translation can occur! So at high iron conc iron storage proteins increase. 
+e.g. IRP usually bound to the IRE on the mRNA of ferritin and transferrin receptors to block translation. Iron binds to IRP, conformational change, unbinds mRNA so translation can occur! So at high iron conc iron storage proteins increase.
