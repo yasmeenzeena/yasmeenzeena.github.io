@@ -5,7 +5,7 @@ Second Year
 <summary>BIOC2001: Molecular Biology</summary>
 <br>
 <ul>
-	                <li><a href="/">L1: Nucleic Acids</a></li>
+	                <li><a href="https://yasmeenzeena.github.io/nucleicacids">L1: Nucleic Acids</a></li>
 	                <li><a href="/">L2: Plasmids</a></li>
 	                <li><a href="/">L3: Bacteriophage Lambda</a></li>
 		        <li><a href="/">L4: DNA sequencsing</a></li>
