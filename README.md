@@ -8,7 +8,7 @@ Second Year
 	                <li><a href="https://yasmeenzeena.github.io/nucleicacids">L1: Nucleic Acids</a></li>
 	                <li><a href="/">L2: Plasmids</a></li>
 	                <li><a href="/">L3: Bacteriophage Lambda</a></li>
-		        <li><a href="/">L4: DNA sequencsing</a></li>
+		        <li><a href="https://yasmeenzeena.github.io/dnaseq">L4: DNA sequencing</a></li>
 		        <li><a href="/">L15&6: Human genome</a></li>
         		<li><a href="https://yasmeenzeena.github.io/bacterialgenecontrol">L7: RNA polymerase</a></li>
 	                <li><a href="https://yasmeenzeena.github.io/bacterialpromotors">L8: Bacterial gene control</a></li>
