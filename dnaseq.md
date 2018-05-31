@@ -103,6 +103,4 @@ Can use to detect genetic mutations: homozygous at a single location will give
 only the peak for that nucleotide, but heterozygous locations will have two
 smaller waves on top of each other to show that both nucleotides are present.
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/vK-HlMaitnE&t=8s/0.jpg)](http://www.youtube.com/watch?v=YvK-HlMaitnE&t=8s "DNA Sequencing: The Chain Termination Method (Sanger Method)")
-
-[linkname](https://youtubevideourl)
+[Sanger Sequencing](https://www.youtube.com/watch?v=vK-HlMaitnE&t=8s)
