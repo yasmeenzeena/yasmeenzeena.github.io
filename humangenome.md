@@ -46,8 +46,6 @@ Only 1.5% of the genome codes for human proteins! LINES&SINES take up
 anywhere from 30% to almost 50%, and introns another 30%. Thus duplications
 and repeats account for most of the genome.
 
-![pq](9https://lh3.googleusercontent.com/8bzGRzLItJWuQbx5ihniddtiaCru06XvHd4tBZJ-fYgqmmu5NfE7iptk0koC7b4W-ZZseJy4MbyMHDYGGuFHWHamGlPuL7I7s3paahJmZZNQ7vlyIFK1Hv2tVMpQWedIYQ)
-
 ### Gene Regulation
 
 DNA is arranged intron->exon->intron->exon. Before and after the exon (i.e.
@@ -73,7 +71,7 @@ nucleolar.)
 
 ### Gene Families
 Gene duplication and subsequent mutation of the duplicates can result in the
-formation of a "gene family." E.g. haemoglobin genes: genes for the alpha
+formation of a "gene family." E.g. *haemoglobin genes*: genes for the alpha
 globular protein subunits sit on chromosome 16 and there are three types,
 coding for embryo, fetus and adult versions (so 3 duplicates were made and
 mutated.) genes for the beta globular protein subunits occur on chromosome
@@ -81,7 +79,7 @@ mutated.) genes for the beta globular protein subunits occur on chromosome
 developmental order, although we are unsure why. Duplication = change to
 optimise each duplicate for different life stages through mutation (evolution)!
 
-e.g. Histone gene family: H1, H2A, H2B, H3 & H4. Histones are proteins
+e.g. *Histone gene family*: H1, H2A, H2B, H3 & H4. Histones are proteins
 around which DNA is wrapped during replication. The DNA-histone complex =
 "nucleosome". This ensures fast and correct DNA packaging. Histone genes are
 arranged into 11 clusters with over 60 actual genes distributed over 7
@@ -111,7 +109,8 @@ counterpart.
 + non processed = arose by duplication and mutation of the gene
 + processed = retrotransposon / reverse transcriptase copy & pasted
 
-> http://sandwalk.blogspot.com/2015/11/different-kinds-of-pseudogenes.html
+>[Blog post on pseudogenes](http://sandwalk.blogspot.com/2015/11/different-kinds-of-pseudogenes.html)
+
 
 ### Transposon
 DNA sequence with ability to move around in the genome = **“jumping genes”** an
@@ -138,7 +137,7 @@ DNA (almost 50% of the genome is repeats) as their mechanism relies on
 copy pasting themselves, i.e. a section of DNA, back into the genome many
 times.
 
-Class I = **retrotranspons**, code for reverse transcriptase; DNA -> RNA ->
+1. Class I = **retrotranspons**, code for reverse transcriptase; DNA -> RNA ->
 back to DNA, which is inserted at a different point in the genome. The reverse
 transcriptase used is often coded for by the transposon gene itself. Confined to
 eukaryotes. *[Recent phylogenetic evidence suggests that retroviruses as a
@@ -148,14 +147,14 @@ retrotransposons as "intracellular virus" but not a virus bc lacks protein coat.
 The promoter is transcribed with the rest of the genes to allow the inserted
 retrotransposon to continue to proliferate.
 
-Class II = **DNA transposons**, do not code for reverse transcriptase; use
+2. Class II = **DNA transposons**, do not code for reverse transcriptase; use
 transposase enzymes to cut out the DNA from the genome -> enzymes can
 bind site specifically or generally, and produce sticky ends. DNA polymerase
 fills in the gaps created by the sticky ends and DNA ligase fixes the backbone.
 The transposon in question will encode the enzymes required for its own
 transposition, but will require cell machinery.
 
-![transposon](https://en.wikipedia.org/wiki/Transposable_element#/media/File:Composite_transposon.svg)
+[Transposons](https://en.wikipedia.org/wiki/Transposable_element#/media/File:Composite_transposon.svg)
 
 ### LINES: L1, "long interspersed nuclear elements"
 
@@ -225,13 +224,12 @@ repeats across many chromosomes), called **"portable regions of
 homology"** -> these may accidentally recombine rather than with their
 chromosome counterpart. Such exchanges result in deletions, insertions,
 inversions, or translocations.
-
 + altered gene expression if inserted into regulatory regions, e.g.
-      + insertion into promoter can silence a gene -> X-linked muscular
+      ⋅⋅⋅ + insertion into promoter can silence a gene -> X-linked muscular
       dystrophy, Haemophilia A and B, colon cancer
-      + LINE insertion in the FMO1 gene in human liver cells stops its
+      ⋅⋅⋅ + LINE insertion in the FMO1 gene in human liver cells stops its
       expression
-      + insertion into intron can slow down transcription
+      ⋅⋅⋅ + insertion into intron can slow down transcription
 + multiple copies of the same sequence, such as Alu sequences, can hinder
 precise chromosomal pairing during mitosis and meiosis, resulting in
 unequal crossovers, one of the main reasons for chromosome duplication.
