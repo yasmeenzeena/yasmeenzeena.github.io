@@ -25,7 +25,7 @@ are expressed together.
 Heavy: 28 genes encoded, G rich, purines
 Light: 9 genes encoded, C rich, pyrimidine
 
-![genome](https://en.wikipedia.org/wiki/Mitochondrial_DNA#/media/File:Map_of_the_human_mitochondrial_genome.svg)
+![genome](https://ls23l.lscore.ucla.edu/MTDNA/gif_files/GIFL/mtDNAMap.gif)
 
 a tiny section of the mitochondria DNA forms a *"D loop"*, where it actually
 is triple stranded DNA. A section of complimentary DNA comes in and replaces
@@ -34,7 +34,7 @@ Replication of the mitochondrial DNA starts in either direction at the D loop.
 Large parts are highly variable and the region has proven to be useful for the
 study of the evolutionary history of vertebrates
 
-![d loop](https://ars.els-cdn.com/content/image/1-s2.0-S0531556514001181-gr1.jpg)
+![d loop](http://marestevgenetics101.weebly.com/uploads/3/7/1/2/37122223/6097374_orig.jpg)
 
 ### Nuclear Genome Structure
 
@@ -156,3 +156,25 @@ The transposon in question will encode the enzymes required for its own
 transposition, but will require cell machinery.
 
 ![transposon](https://en.wikipedia.org/wiki/Transposable_element#/media/File:Composite_transposon.svg)
+
+### LINES: L1, "long interspersed nuclear elements"
+
+20% of the genome; 900,000 copies.
+
+Class I i.e. they code for reverse trascriptase and insert themselves into the
+genome via an mRNA intermediate. They have a promotor and two separate
+open reading frames to code for the **reverse transcriptase, the
+endonuclease & the RNase H**. LINES are defined by *"target site
+duplication"* sequences on either side of their genetic information. As they
+are mRNA integrations into DNA they have a polyA tail at the 3' end.
+
++ Target site duplication at either end
++ A promoter for transcription
++ ORF1 = Reverse transcriptase to copy the RNA to DNA
++ ORF2 = Endonuclease to cleave the target DNA e.g. RNase H
+(ribonuclease H) for RNA removal
++ 5' UTR contains the promotor, 3' UTR has the poly A tail
++ untranslated region = sequences which are transcribed but not
+translated
+
+![line](https://image.slidesharecdn.com/repetitivesequencesintheeukaryoticgenome-170607163657/95/repetitive-sequences-in-the-eukaryotic-genome-33-638.jpg?cb=1496853551)
