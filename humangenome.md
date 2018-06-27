@@ -178,3 +178,92 @@ are mRNA integrations into DNA they have a polyA tail at the 3' end.
 translated
 
 ![line](https://image.slidesharecdn.com/repetitivesequencesintheeukaryoticgenome-170607163657/95/repetitive-sequences-in-the-eukaryotic-genome-33-638.jpg?cb=1496853551)
+
+LIFE CYCLE OF LINES:
+
++ LINE DNA is transcribed and translated via host cell machinery (not the
+UTR or the TSD) -->
++ ORF1 and ORF2 proteins (reverse trascriptase, endonuclease, RNase H)
+bind to the LINE mRNA (i.e. proteins, the translation product, bind to
+mRNA, the transcription product)(LINE mRNA is not destroyed during
+translation) --->
++ Protein-mRNA strand is moved back into the nucleus (proteins escort the
+mRNA)
++ this LINE mRNA complex can anneal to sequences of DNA with a TTTT
+rich region (binds to poly A tail) (AT rich regions are weaker)-->
++ LINE endonuclease cleaves the dsDNA at the target site ("target site
+cleavage") --->
++ Insertion of the LINE --->
++ RNA DNA hybrid forms --->
++ LINE RNA uses the DNA strand it's bonded to as a template, begins to
+synthesis the first cDNA strand using reverse transcriptase (LINE mRNA -> LINE DNA) -->
++ Four bp(+) on the end of the LINE is removed as they do not match to
+the DNA --->
++ DNA repair fills in the missing sequence, formation of TSD (transcription
+site duplication) --->
++ DNA ligase joins up the new DNA strands, LINE has been successfully
+inserted
+
+LINE in DNA is copied into both proteins and mRNA; they react together to
+form a complex which can break into complimentary DNA and insert itself into
+the genome, where the mRNA is copied into dsDNA.
+
+A LINE is about 6500bp, but is often truncated at the 5' end -> i.e. reverse
+transcriptase misses a bit of the 5' end when turning the mRNA into DNA to be
+inserted into the cell. The promoter is often missing, which means that this
+inserted LINE cannot be transcribed again so no more duplication of the LINE =
+processed pseudogene.
+
+LINES are mutagens and their movements are often the causes of genetic disease. They can damage the genome of their host cell in different ways:
+
++ inserts itself into a functional gene, most likely **disables that gene**;
+(causes frameshift mutation/ inversion, deletion)
++ after a DNA transposon (Class II, no reverse transcriptase) leaves a
+gene, the resulting gap will probably not be repaired correctly;
++ transposons result in areas of the DNA being complimentary (many
+repeats across many chromosomes), called **"portable regions of
+homology"** -> these may accidentally recombine rather than with their
+chromosome counterpart. Such exchanges result in deletions, insertions,
+inversions, or translocations.
+
++ altered gene expression if inserted into regulatory regions, e.g.
+      + insertion into promoter can silence a gene -> X-linked muscular
+      dystrophy, Haemophilia A and B, colon cancer
+      + LINE insertion in the FMO1 gene in human liver cells stops its
+      expression
+      + insertion into intron can slow down transcription
++ multiple copies of the same sequence, such as Alu sequences, can hinder
+precise chromosomal pairing during mitosis and meiosis, resulting in
+unequal crossovers, one of the main reasons for chromosome duplication.
+
+LINES = 0.2% of all genetic diseases, uncommon in somatic cells (most
+damage is **done during homologous recombination** in meiosis in germ
+line cells.) Somatic cells heavily methylate many large swaths of genes and
+so the LINES are "silenced" and cannot transcribe themselves.
+
+### SINES
+
+*"short interspersed elements"* -> e.g. Alu sequence, the most abundant repeat
+in the genome (750,000 times.) Only occurs in the intron sequence, not in any
+exons. 280-300bp long roughly & primate specific! Alu regions can be detected
+by digesting DNA with restriction endonuclease Alu 1 (cuts out the Alu
+sequence, can be visualised on a gel: lots of Alu repeats —> not a smear but
+just many sequences on top of one another showing that this is a reoccuring
+sequence (v abundant in comparison to rest of genome.)
+
+Alu repeat structure:
+
++ TSD at the beginning (target site duplication, the inverted repeat that
+signals a transposon beginning and end)
++ Transcription start site
++ Binding site A and B (RNA polymerase binds here, A&B are essentially
+promoters)
++ poly A tail and complimentary T section on other strand
++ TSD at the end
+
+SINEs all have RNA pol III internal promoters (A&B in Alu.) SINES are
+transcribed by RNA polymerase III, then the SINE mRNA is copied into DNA via
+reverse transcriptase -> this is donated by a LINE element. SINES cannot
+make their own reverse transcriptase as they do not encode the gene for it!
+Insertion of SINES are thought to be involved in the formation of Haemophilia
+A and B, chronic haemolytic anaemia and cystic fibrosis.
