@@ -225,11 +225,11 @@ homology"** -> these may accidentally recombine rather than with their
 chromosome counterpart. Such exchanges result in deletions, insertions,
 inversions, or translocations.
 + altered gene expression if inserted into regulatory regions, e.g.
-      ⋅⋅⋅ + insertion into promoter can silence a gene -> X-linked muscular
-      dystrophy, Haemophilia A and B, colon cancer
-      ⋅⋅⋅ + LINE insertion in the FMO1 gene in human liver cells stops its
-      expression
-      ⋅⋅⋅ + insertion into intron can slow down transcription
+      ⋅⋅⋅ insertion into promoter can silence a gene -> X-linked muscular
+      dystrophy, Haemophilia A and B, colon cancer ..
+      ⋅⋅⋅ LINE insertion in the FMO1 gene in human liver cells stops its
+      expression ..
+      ⋅⋅⋅ insertion into intron can slow down transcription ..
 + multiple copies of the same sequence, such as Alu sequences, can hinder
 precise chromosomal pairing during mitosis and meiosis, resulting in
 unequal crossovers, one of the main reasons for chromosome duplication.
