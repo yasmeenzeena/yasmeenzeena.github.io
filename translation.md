@@ -77,10 +77,71 @@ Eukaryotes = Kozac sequence -> 5’CCACCAUGG 3’ found around the start methio
 
 **Polysomes:** complex of an mRNA strand where multiple ribosomes are able to translate the strand at the same time. mRNA is circularised here to allow this process. This allows many copies of the protein to be made from one mRNA strand. 
  
-The fate of newly translated proteins:
+#### The fate of newly translated proteins:
 	+ translocation, via a leader sequence informing the cell of the protein destination (e.g. transmembrane proteins shuttled to the plasma membrane via exocytosis pathways, see protein trafficking lectures.) 
 	+ post translational modification in ER and Golgi -> this includes disulphide bridges in the ER!!!!
 
 + activation e.g. phosphorylation in Golgi: creates a dock in the molecule -> works in signalling pathways!
 	     + Free OH needed (serine, threonine, tyrosine), turned into the PO4 by protein kinase
 	     + e.g. lipid kinase can phosphorylate things on the membrane (where it sits)
+
++	degradation (via ubiquitination)
+       	+ mono ubiquitination or can add multiple molecules / chains of ubiquitin
+       	+ ubiquitin - 76aa protein, very stable
+       	+ added to lysine residues on proteins by ubiquitin ligase
+       	+ e.g. STAT1 is phosphorylated, translocates to the nucleus and is ubiquitinated -> undergoes proteosome mediated degradation ???????
+
++	Coacetylation: covalent binding of coenzyme A -> metabolism target, modification for protein in stress response
+        	+ CoA can covalently bind to proteins when the cell is under stress (e.g. starvation)
+        	+ during normal conditions there is very little protein CoAcetylation
+        	+ in stress conditions CoA is added to proteins -> added to the cystine residues by covalent linkage
+        	+ protect the cysteine residues from oxidation to suphenic acid (very reactive under stress)
+        	+ thus can think of CoA as an anti oxidant modification in the cell!
+
++ acetylation regulates histone proteins: closed chromatin ---> relaxed chromatin if you add an acetyl group, increases transcription
+        	+ histone tails are required for chromatin to condense from the beads-on-a-string conformation into the 30 nm fiber
+        	+ histone tails are positive due to K and R residues
+        	+ Histone tails undergo reversible acetylation and deacetylation by enzymes that act on specific lysines in the N-termini
+        	+ acetyl groups cancel out the positivity of the lysines
+        	+ chromatin forms the "beads on a string" conformation due to this neutralisation
+        	+ DNA is in the open conformation -> ready for transcription
+
++ methylation of histone proteins: 
+        	+ Condensed regions of chromatin known as heterochromatin are often methylated heavily 
+        	+ heterochromatin cannot easily be unwound for transcription -> allows silencing of genes
+
+### Molecular mechanism of translation
+
+In prokaryotes transcription and translation are continuous with each other due to a lack of compartmentalisation within the cell. Their mRNA is usually polycistronic and will contain multiple ribosome start and stop codons, whilst eukaryotic mRNA is spliced into one monocistronic transcript. 
+
+**Initiation:** rate limiting, once initiation has begun it cannot be stopped so it is very tightly controlled. ATP and GTP hydrolysis is needed, and after initiation a complex containing the ribosome, mRNA and initiator Met-tRNA is formed. Eukaryotic translation initiation factors (eiFs) help mediate the complex formation. Many bind GTP, and the GTP-GDP hydrolysis is treated as a proofreading measure, such that complexes before GTP hydrolysis are unstable and can reform, thus allowing fixing of any errors in the structure. 
+
+2 possible mechanisms used:
+
++ **Cap-dependent initiation:** 5' cap structure is scanned until the AUG is found 
++ **Internal ribosome entry site (IRES):** initiation complex binds upstream of the AUG codon, used when the cap isn't available e.g. cap production halted if certain cellular stressors applied. 
+
+Normal eukaryotic translation uses cap dependent initiation:
+1. Circularisation: 
+	+ eIF4A and B have helicase activity and unwind any RNA secondary structure
+	+ eIF4E [eukaryotic initiation factor 4E] binds to the the 5' cap
+	+ eIF 4G binds to the polyA-binding protein, PABP, which is already bound to the polyA tail (helps the formation of the polyA tail in mRNA processing)
+  + the eIF 4G acts as a scaffold onto which other factors can bind
+	+ eIF4E and eIF4G are associated, so the mRNA is forced to circularise 
+	+ mechanism ensures that the mRNA has a cap and a tail!
+
+![circle](http://2012.igem.org/wiki/images/thumb/f/f4/Cap_dependent.jpg/500px-Cap_dependent.jpg)
+
+2. 43S complex is made and translation is initiated
+	+ tRNA with the methionine bound is bound to eIF2
+	+ 40S ribosomal subunit is bound by eIF1, eIF1A, eIF5, eIF3 and eIF2-tRNA-methionine 
+  + eIF1A and eIF3 promote binding of the eIF2-tRNA-methionine (ternary) complex to the 40S subunit
+	+ the mRNA-eIF4 complex then associates with the 43S complex through an interaction between eIF4G and elF3: now the mRNA, the start amino acid and the ribosome are brought together  
+
+![43s](http://www-ibmc.u-strasbg.fr/spip-arn/IMG/jpg/hashem_them1.jpg)
+
+  + once the Kozac sequence and the AUG are found another binding event occurs:
+	+ [Lodish: eIF2 GTP is hydrolysed when AUG is encountered, irreversible step which presents further scanning. As the methionine is base paired onto the mRNA the complex is now called a 48S complex.] 
+	+ the 60S subunit is added on the other side of the mRNA to sandwich it in and hold it in place as the ribosome scans the rest of the sequence. 
+	+ 60S is recruited by the eIF5, which acts as the final proofreader. 60S is added by GTP hydrolysis: once hydrolysis occurs the final 80S assembly has been made
+	+ All of the eukaryotic initiation factors are removed before elongation begins 
