@@ -145,3 +145,72 @@ Normal eukaryotic translation uses cap dependent initiation:
 	+ the 60S subunit is added on the other side of the mRNA to sandwich it in and hold it in place as the ribosome scans the rest of the sequence. 
 	+ 60S is recruited by the eIF5, which acts as the final proofreader. 60S is added by GTP hydrolysis: once hydrolysis occurs the final 80S assembly has been made
 	+ All of the eukaryotic initiation factors are removed before elongation begins 
+
+### Elongation
+
+The key steps in elongation are entry of each succeeding aminoacyl-tRNA with a tRNA, formation of a peptide bond, and the translocation of the ribosome one codon at a time along the mRNA.
+
+Ribosome A site: binding site for the tRNA with the amino acid  </br>
+Ribosome P site: binding site for the tRNA lacking an amino acid i.e. deacylated. the P-site holds the tRNA which is linked to the growing polypeptide chain </br>
+Ribosome E site: exit site, tRNA leaves from here </br>
+
+At the beginning, methionine-tRNA is bound to the P site on the assembled 80S ribosome, so the next aminoacyl-tRNA binds to the A site. EF1A-GDP is turned to EF1A-GTP by EF1B. EF1A-GTP brings the aminoacyl-tRNA to the A site via a GTP hydrolysis. A peptide bond is formed between the methionine and the next amino acid. The eEF2 hydrolyses it's GTP an the conformational change results in it moving the the deacetylated tRNA (previously with methionine) from the P site to the E site, and moving the tRNA with the bound peptide to the P site from the A site. A new aminoacyl-tRNA will bind to the A site via EF1A, make a peptide bond to the second amino acid, and be moved to the P site by eEF2. 
+
++ first tRNA is in the P site with the bound peptide, new aminoacyl-tRNA binds to the A site (EF1A) 
++ peptide bond catalysed: peptide now on the tRNA in the A position 
++ translocation occurs to get the peptide back to the P position:
++ old deacylated tRNA moves P->E and tRNA now bound to the peptide moves A->P by eEF2 
+
+![elongation](https://themedicalbiochemistrypage.org/images/translation-elongation.jpg)
+
+aminoacyl-tRNA binding ---> peptide bond catalysis ---> translocation
+
+> Alberts: Translating an mRNA molecule. Each amino acid added to the growing end of a polypeptide chain is selected by complementary basepairing between the anticodon on its attached tRNA molecule and the next codon on the mRNA chain. Because only one of the many types of tRNA molecules in a cell can base-pair with each codon, the codon determines the specific amino acid to be added to the growing polypeptide chain. The four-step cycle shown is repeated over and over during the synthesis of a protein. In step 1, an aminoacyl-tRNA molecule binds to a vacant A site on the ribosome. In step 2, a new peptide bond is formed. In step 3, the large subunit translocates relative to the small subunit, leaving the two tRNAs in
+hybrid sites: P on the large subunit and A on the small, for one; E on the large subunit and P on the small, for the other. In step 4, the small subunit translocates carrying its mRNA a distance of three nucleotides through the ribosome. This “resets” the ribosome with a fully empty A site, ready for the next aminoacyl-tRNA molecule to bind. As indicated, the mRNA is translated in the 5ʹ-to-3ʹ direction, and the N-terminal end of a protein is made first, with each cycle adding one amino acid to the C-terminus of the polypeptide chain.
+
+### Termination
+
+The stop codons do not have a specific tRNA! Instead, releasing factors aka eRFs are used:
+
+**eRF1** = similar shape to tRNAs, acts by binding to the ribosomal A site and recognising stop codons directly
+**eRF3** = GTP-binding protein. Promotes cleavage of the peptidyltRNA, thus releasing the completed protein chain
+
+The peptidyl-tRNA bond of the tRNA in the P site is not cleaved, terminating translation, until one of the three stop codons is correctly recognised by eRFl, another example of a proofreading step in protein synthesis.
+
++ eRF1 binds to the stop codon in the ribosomal A site (mimics tRNA)
++ it's catalytic activity is stimulated by eRF3
++ nucleophilic attack on the ester bond between the peptide and the P site tRNA
++ cleavage of the peptidyltRNA
++ releases the completed protein chain 
+
+eRF1 is very similar in shape to tRNA, conversed:
+anticodon loop (domain 1 in eRF1) </br>
+aminoacyl acceptor stem (domain 2) </br>
+T stem of a tRNA molecule (domain 3) </br>
+
+### Proofreading
+
+tRNAs have many copies so we need a high affinity of interaction to get the right
+tRNA to the right codon sequence. Mismatches tRNAs dissociate from the A site
+before GTP hydrolysis of eEF1A can occur -> the aminoacyl-tRNA from the ternary
+complex does not remain bound to the ribosomal A site but dissociates.
+
+GTP hydrolysis, and hence tight binding, does not occur if the anticodon of the
+incoming aminoacyl-tRNA cannot basepair with the codon at the A site. In this case,
+the ternary complex diffuses away, leaving  an empty A site that can associate with
+other  aminoacyl-tRNA-Eflex·GTP complexes until a correctly base-paired tRNA is
+bound.  Thus, GTP hydrolysis by EF1A is another proofreading step that allows protein
+synthesis to proceed only when the correct amino acylated tRNA is bound to the A
+site. This phenomenon contributes to the fidelity of protein synthesis.
+
+When is the **IRES** pathway used? When the 5’ caps are either damaged or unavailable e.g. in starvation the cell does not produce global induction of proteins but instead must selectively translate only survival proteins. IRES is used to select only these proteins -> quick & specialised regulatory response. Often **hijacked by viruses** either to stop translation (picornoviruses) or to make viral proteins (hepatitis C.)
+
+**picornoviruses** is able to inactivate IRES -> IRES is depend on the C-terminal fragment of eIF4G to recruit the 40S subunit through interaction with eIF3 -> picornoviruses can cleave eIF4 to inactive translation
+
+**Hepatitis C** -> needs only eIF3 to start IRES, once hepatitis C binds it’s mRNA’s AUG is placed into the P site via a large conformational change of the 40S ribosome subunit.
+
+Other viral targets:
+
+**Puromycin** - Aminoacyl-tRNA analog, causes premature chain termination </br>
+**Tetracycline** - Inhibits aminoacyl-tRNA binding to the A site </br>
+**Erythromycin** - binds peptidyl transferase and blocks polypeptide translocation </br>
