@@ -13,7 +13,7 @@ Second Year
         		<li><a href="https://yasmeenzeena.github.io/bacterialgenecontrol">L7: RNA polymerase</a></li>
 	                <li><a href="https://yasmeenzeena.github.io/bacterialpromotors">L8: Bacterial gene control</a></li>
 		        <li><a href="/">L9: Conjugation</a></li>
-		        <li><a href="/">L10: Translation</a></li>
+		        <li><a href="https://yasmeenzeena.github.io/translation">L10: Translation</a></li>
 	        	<li><a href="https://yasmeenzeena.github.io/proteintrafficking">L11&12: Protein Trafficking</a></li>
 	                <li><a href="https://yasmeenzeena.github.io/2001l13">L113: DNA to make proteins</a></li>
 		        <li><a href="/">L14: DNA polymerase</a></li>
